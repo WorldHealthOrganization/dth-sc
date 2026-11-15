@@ -221,7 +221,7 @@
       "source": {
         "remote": {
           "repository": "litlfred/cat-harness-tools",
-          "ref": "fded8cc01ba0e474aa722309a3905914822dc012",
+          "ref": "fa34da943991952ae02c09058a44e36c408fe596",
           "overrides": {
             "cat-harness-tools": {
               "whole": true
@@ -234,7 +234,7 @@
             "consent": {
               "by": "litlfred",
               "on": "2026-11-15",
-              "ref": "fded8cc01ba0e474aa722309a3905914822dc012",
+              "ref": "fa34da943991952ae02c09058a44e36c408fe596",
               "evidence": "owner litlfred, 2026-11-15 17:50:40Z, card 'Pin dth-phc and dth-sc re-pins to the current layer mains?' option A (project thread 'Triage and fix CI failure emails')"
             },
             "standing": {

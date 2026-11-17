@@ -1,0 +1,947 @@
+{
+  "$schema": "l1-coverage-report/v1",
+  "definitionVersion": "folio-assistant-core/methodologies/l1-coverage.md (markers §1, reasons §2) — folio-assistant-core l1-coverage v1",
+  "matchMethod": "normalised-substring",
+  "totals": {
+    "normative": 47,
+    "captured": 42,
+    "excluded": 5,
+    "unaccounted": 0,
+    "capturedPct": 89.36,
+    "accountedForPct": 100
+  },
+  "pages": [
+    {
+      "sectionId": "sec-front-matter",
+      "page": 1,
+      "normative": 6,
+      "captured": 1,
+      "excluded": 5,
+      "unaccounted": 0,
+      "capturedPct": 16.67,
+      "accountedForPct": 100
+    },
+    {
+      "sectionId": "sec-000-acknowledgements",
+      "page": 2,
+      "normative": 0,
+      "captured": 0,
+      "excluded": 0,
+      "unaccounted": 0,
+      "capturedPct": null,
+      "accountedForPct": null
+    },
+    {
+      "sectionId": "sec-001-abbreviations-and-acronyms",
+      "page": 3,
+      "normative": 0,
+      "captured": 0,
+      "excluded": 0,
+      "unaccounted": 0,
+      "capturedPct": null,
+      "accountedForPct": null
+    },
+    {
+      "sectionId": "sec-002-glossary",
+      "page": 4,
+      "normative": 2,
+      "captured": 2,
+      "excluded": 0,
+      "unaccounted": 0,
+      "capturedPct": 100,
+      "accountedForPct": 100
+    },
+    {
+      "sectionId": "sec-003-introduction",
+      "page": 5,
+      "normative": 8,
+      "captured": 8,
+      "excluded": 0,
+      "unaccounted": 0,
+      "capturedPct": 100,
+      "accountedForPct": 100
+    },
+    {
+      "sectionId": "sec-004-1-defining-a-holistic-dhsc-strategy",
+      "page": 6,
+      "normative": 2,
+      "captured": 2,
+      "excluded": 0,
+      "unaccounted": 0,
+      "capturedPct": 100,
+      "accountedForPct": 100
+    },
+    {
+      "sectionId": "sec-005-why-is-a-strategy-necessary",
+      "page": 7,
+      "normative": 0,
+      "captured": 0,
+      "excluded": 0,
+      "unaccounted": 0,
+      "capturedPct": null,
+      "accountedForPct": null
+    },
+    {
+      "sectionId": "sec-006-step-1-identify-and-engage-all-relevant-stakehol",
+      "page": 8,
+      "normative": 1,
+      "captured": 1,
+      "excluded": 0,
+      "unaccounted": 0,
+      "capturedPct": 100,
+      "accountedForPct": 100
+    },
+    {
+      "sectionId": "sec-007-step-2-analyse-the-current-state-of-hsciss",
+      "page": 9,
+      "normative": 1,
+      "captured": 1,
+      "excluded": 0,
+      "unaccounted": 0,
+      "capturedPct": 100,
+      "accountedForPct": 100
+    },
+    {
+      "sectionId": "sec-008-step-3-define-the-dhsc-vision-and-strategic-goal",
+      "page": 10,
+      "normative": 1,
+      "captured": 1,
+      "excluded": 0,
+      "unaccounted": 0,
+      "capturedPct": 100,
+      "accountedForPct": 100
+    },
+    {
+      "sectionId": "sec-009-step-4-define-a-strategic-roadmap-and-performanc",
+      "page": 11,
+      "normative": 0,
+      "captured": 0,
+      "excluded": 0,
+      "unaccounted": 0,
+      "capturedPct": null,
+      "accountedForPct": null
+    },
+    {
+      "sectionId": "sec-010-2-defining-the-dhsc-architecture",
+      "page": 12,
+      "normative": 2,
+      "captured": 2,
+      "excluded": 0,
+      "unaccounted": 0,
+      "capturedPct": 100,
+      "accountedForPct": 100
+    },
+    {
+      "sectionId": "sec-011-is-a-dhsc-architecture-necessary",
+      "page": 13,
+      "normative": 2,
+      "captured": 2,
+      "excluded": 0,
+      "unaccounted": 0,
+      "capturedPct": 100,
+      "accountedForPct": 100
+    },
+    {
+      "sectionId": "sec-012-what-are-the-risks-of-forgoing-a-dhsc-architectu",
+      "page": 14,
+      "normative": 0,
+      "captured": 0,
+      "excluded": 0,
+      "unaccounted": 0,
+      "capturedPct": null,
+      "accountedForPct": null
+    },
+    {
+      "sectionId": "sec-013-step-1-assess-the-current-state-of-hsciss",
+      "page": 15,
+      "normative": 0,
+      "captured": 0,
+      "excluded": 0,
+      "unaccounted": 0,
+      "capturedPct": null,
+      "accountedForPct": null
+    },
+    {
+      "sectionId": "sec-014-dhsc-architecture-framework",
+      "page": 16,
+      "normative": 0,
+      "captured": 0,
+      "excluded": 0,
+      "unaccounted": 0,
+      "capturedPct": null,
+      "accountedForPct": null
+    },
+    {
+      "sectionId": "sec-015-step-2-define-a-target-dhsc-architecture",
+      "page": 17,
+      "normative": 6,
+      "captured": 6,
+      "excluded": 0,
+      "unaccounted": 0,
+      "capturedPct": 100,
+      "accountedForPct": 100
+    },
+    {
+      "sectionId": "sec-016-illustrative-architectural-approaches-and-govern",
+      "page": 18,
+      "normative": 3,
+      "captured": 3,
+      "excluded": 0,
+      "unaccounted": 0,
+      "capturedPct": 100,
+      "accountedForPct": 100
+    },
+    {
+      "sectionId": "sec-017-step-3-identify-implementation-activities-and-ma",
+      "page": 19,
+      "normative": 0,
+      "captured": 0,
+      "excluded": 0,
+      "unaccounted": 0,
+      "capturedPct": null,
+      "accountedForPct": null
+    },
+    {
+      "sectionId": "sec-018-3-planning-for-scalable-implementation-and-susta",
+      "page": 20,
+      "normative": 1,
+      "captured": 1,
+      "excluded": 0,
+      "unaccounted": 0,
+      "capturedPct": 100,
+      "accountedForPct": 100
+    },
+    {
+      "sectionId": "sec-019-step-1-plan-the-implementation-of-each-dhsc-inte",
+      "page": 21,
+      "normative": 3,
+      "captured": 3,
+      "excluded": 0,
+      "unaccounted": 0,
+      "capturedPct": 100,
+      "accountedForPct": 100
+    },
+    {
+      "sectionId": "sec-020-step-2-develop-an-operational-plan-for-each-dhsc",
+      "page": 22,
+      "normative": 3,
+      "captured": 3,
+      "excluded": 0,
+      "unaccounted": 0,
+      "capturedPct": 100,
+      "accountedForPct": 100
+    },
+    {
+      "sectionId": "sec-021-step-3-develop-a-budget-for-each-dhsc-interventi",
+      "page": 23,
+      "normative": 0,
+      "captured": 0,
+      "excluded": 0,
+      "unaccounted": 0,
+      "capturedPct": null,
+      "accountedForPct": null
+    },
+    {
+      "sectionId": "sec-022-step-4-implement-each-dhsc-intervention",
+      "page": 24,
+      "normative": 0,
+      "captured": 0,
+      "excluded": 0,
+      "unaccounted": 0,
+      "capturedPct": null,
+      "accountedForPct": null
+    },
+    {
+      "sectionId": "sec-023-4-using-the-dhsc-to-implement-traceability",
+      "page": 25,
+      "normative": 0,
+      "captured": 0,
+      "excluded": 0,
+      "unaccounted": 0,
+      "capturedPct": null,
+      "accountedForPct": null
+    },
+    {
+      "sectionId": "sec-024-what-is-traceability",
+      "page": 26,
+      "normative": 0,
+      "captured": 0,
+      "excluded": 0,
+      "unaccounted": 0,
+      "capturedPct": null,
+      "accountedForPct": null
+    },
+    {
+      "sectionId": "sec-025-why-is-traceability-important",
+      "page": 27,
+      "normative": 0,
+      "captured": 0,
+      "excluded": 0,
+      "unaccounted": 0,
+      "capturedPct": null,
+      "accountedForPct": null
+    },
+    {
+      "sectionId": "sec-026-traceability-models",
+      "page": 28,
+      "normative": 2,
+      "captured": 2,
+      "excluded": 0,
+      "unaccounted": 0,
+      "capturedPct": 100,
+      "accountedForPct": 100
+    },
+    {
+      "sectionId": "sec-027-5-country-examples",
+      "page": 29,
+      "normative": 0,
+      "captured": 0,
+      "excluded": 0,
+      "unaccounted": 0,
+      "capturedPct": null,
+      "accountedForPct": null
+    },
+    {
+      "sectionId": "sec-028-ethiopias-dhsc-initiative",
+      "page": 30,
+      "normative": 0,
+      "captured": 0,
+      "excluded": 0,
+      "unaccounted": 0,
+      "capturedPct": null,
+      "accountedForPct": null
+    },
+    {
+      "sectionId": "sec-029-malawis-dhsc-initiative",
+      "page": 31,
+      "normative": 0,
+      "captured": 0,
+      "excluded": 0,
+      "unaccounted": 0,
+      "capturedPct": null,
+      "accountedForPct": null
+    },
+    {
+      "sectionId": "sec-030-rwandas-dhsc-initiative",
+      "page": 32,
+      "normative": 0,
+      "captured": 0,
+      "excluded": 0,
+      "unaccounted": 0,
+      "capturedPct": null,
+      "accountedForPct": null
+    },
+    {
+      "sectionId": "sec-031-references",
+      "page": 33,
+      "normative": 4,
+      "captured": 4,
+      "excluded": 0,
+      "unaccounted": 0,
+      "capturedPct": 100,
+      "accountedForPct": 100
+    },
+    {
+      "sectionId": "sec-032-annex-1-principles-for-digital-development",
+      "page": 34,
+      "normative": 0,
+      "captured": 0,
+      "excluded": 0,
+      "unaccounted": 0,
+      "capturedPct": null,
+      "accountedForPct": null
+    },
+    {
+      "sectionId": "sec-033-annex-2-steering-committee-example-structure",
+      "page": 35,
+      "normative": 0,
+      "captured": 0,
+      "excluded": 0,
+      "unaccounted": 0,
+      "capturedPct": null,
+      "accountedForPct": null
+    },
+    {
+      "sectionId": "sec-034-annex-3-template-for-prioritizing-dhsc-challenge",
+      "page": 36,
+      "normative": 0,
+      "captured": 0,
+      "excluded": 0,
+      "unaccounted": 0,
+      "capturedPct": null,
+      "accountedForPct": null
+    },
+    {
+      "sectionId": "sec-035-annex-4-illustrative-template-that-maps-todays-c",
+      "page": 37,
+      "normative": 0,
+      "captured": 0,
+      "excluded": 0,
+      "unaccounted": 0,
+      "capturedPct": null,
+      "accountedForPct": null
+    },
+    {
+      "sectionId": "sec-036-annex-5-template-for-listing-health-supply-chain",
+      "page": 38,
+      "normative": 0,
+      "captured": 0,
+      "excluded": 0,
+      "unaccounted": 0,
+      "capturedPct": null,
+      "accountedForPct": null
+    },
+    {
+      "sectionId": "sec-037-annex-6-risk-register-template",
+      "page": 39,
+      "normative": 0,
+      "captured": 0,
+      "excluded": 0,
+      "unaccounted": 0,
+      "capturedPct": null,
+      "accountedForPct": null
+    },
+    {
+      "sectionId": "sec-038-annex-7-resource-matrix-for-dhsc-implementation",
+      "page": 40,
+      "normative": 0,
+      "captured": 0,
+      "excluded": 0,
+      "unaccounted": 0,
+      "capturedPct": null,
+      "accountedForPct": null
+    }
+  ],
+  "sentences": [
+    {
+      "sectionId": "sec-front-matter",
+      "location": "p1:s4",
+      "page": 1,
+      "text": "In any use of this work, there should be no suggestion that WHO endorses any specific organization, products or services.",
+      "markers": [
+        "obligation"
+      ],
+      "state": "excluded",
+      "reason": "editorial",
+      "signedOffBy": "litlfred",
+      "signedOffAt": "2026-10-31"
+    },
+    {
+      "sectionId": "sec-front-matter",
+      "location": "p1:s6",
+      "page": 1,
+      "text": "If you adapt the work, then you must license your work under the same or equivalent Creative Commons licence.",
+      "markers": [
+        "obligation"
+      ],
+      "state": "excluded",
+      "reason": "editorial",
+      "signedOffBy": "litlfred",
+      "signedOffAt": "2026-10-31"
+    },
+    {
+      "sectionId": "sec-front-matter",
+      "location": "p1:s7",
+      "page": 1,
+      "text": "If you create a translation of this work, you should add the following disclaimer along with the suggested citation: “This translation was not created by the World Health Organization (WHO).",
+      "markers": [
+        "obligation"
+      ],
+      "state": "captured",
+      "node": "glossary/t-front-abbreviations"
+    },
+    {
+      "sectionId": "sec-front-matter",
+      "location": "p1:s9",
+      "page": 1,
+      "text": "The original English edition shall be the binding and authentic edition.” Any mediation relating to disputes arising under the licence shall be conducted in accordance with the mediation rules of the World Intellectual Property Organization (http://www.wipo.int/amc/en/mediation/rules/).",
+      "markers": [
+        "obligation"
+      ],
+      "state": "excluded",
+      "reason": "editorial",
+      "signedOffBy": "litlfred",
+      "signedOffAt": "2026-10-31"
+    },
+    {
+      "sectionId": "sec-front-matter",
+      "location": "p1:s25",
+      "page": 1,
+      "text": "The mention of specific companies or of certain manufacturers’ products does not imply that they are endorsed or recommended by WHO in preference to others of a similar nature that are not mentioned.",
+      "markers": [
+        "recommendation"
+      ],
+      "state": "excluded",
+      "reason": "editorial",
+      "signedOffBy": "litlfred",
+      "signedOffAt": "2026-10-31"
+    },
+    {
+      "sectionId": "sec-front-matter",
+      "location": "p1:s30",
+      "page": 1,
+      "text": "In no event shall WHO be liable for damages arising from its use.",
+      "markers": [
+        "obligation"
+      ],
+      "state": "excluded",
+      "reason": "editorial",
+      "signedOffBy": "litlfred",
+      "signedOffAt": "2026-10-31"
+    },
+    {
+      "sectionId": "sec-002-glossary",
+      "location": "p4:s9",
+      "page": 4,
+      "text": "Open-source software must have a license approved by the Open Source Initiative (9). open standards Standards that are documented and made freely available to the public.",
+      "markers": [
+        "obligation"
+      ],
+      "state": "captured",
+      "node": "glossary/p-front-page-008"
+    },
+    {
+      "sectionId": "sec-002-glossary",
+      "location": "p4:s15",
+      "page": 4,
+      "text": "The SMART Guidelines provide a five-step pathway to advance the adoption of best clinical and data practices, even if a country is not yet fully digital (12, 13). stakeholder In the context of digital health transformation, anyone who is affected by or interested in the consequences of the efforts, including the planning team, end users, beneficiaries and funders. systems architecture A technical framework based on a conceptual model that defines how the system should be structured and how its elements should be connected. total cost of ownership The resources required to support a digital health intervention throughout its life cycle. traceability The ability to trace something.",
+      "markers": [
+        "obligation"
+      ],
+      "state": "captured",
+      "node": "glossary/p-front-page-009"
+    },
+    {
+      "sectionId": "sec-003-introduction",
+      "location": "p5:s2",
+      "page": 5,
+      "text": "Supply chain processes such as forecasting and planning, sourcing, procurement, order management, warehouse management and dispensing must operate in harmony to facilitate the flow of health products from manufacturers to the individuals who need them.",
+      "markers": [
+        "obligation"
+      ],
+      "state": "captured",
+      "node": "introduction/p-introduction-page-011"
+    },
+    {
+      "sectionId": "sec-003-introduction",
+      "location": "p5:s8",
+      "page": 5,
+      "text": "Health facilities Regional warehouses Logistics providers Regulators Community health Central warehouse Manufacturers/ distributors Procurers Ministry of health Individuals DISPENSING WAREHOUSE MANAGEMENT SOURCING AND CONTRACT MANAGEMENT FORECASTING AND PLANNING TRANSPORTATION/ DISTRIBUTION TRANSPORTATION/ SHIPPING TRACEABILITY ORDER MANAGEMENT PROCUREMENT Introduction 1 Vital information such as order details, shipping details and inventory data must be exchanged among partners in the supply chain to enable seamless movement of health products.",
+      "markers": [
+        "obligation"
+      ],
+      "state": "captured",
+      "node": "introduction/p-introduction-page-012"
+    },
+    {
+      "sectionId": "sec-003-introduction",
+      "location": "p5:s33",
+      "page": 5,
+      "text": "BEFORE USING THIS HANDBOOK Familiarity with resources such as the Digital Implementation Investment Guide (DIIG) (1), the Supply Chain Information System Maturity Model (SCISMM) (16), the OpenHIE framework (17) and The Open Group Architecture Framework (TOGAF®) (18) is highly recommended before using this handbook.",
+      "markers": [
+        "recommendation"
+      ],
+      "state": "captured",
+      "node": "glossary/t-front-abbreviations"
+    },
+    {
+      "sectionId": "sec-003-introduction",
+      "location": "p5:s46",
+      "page": 5,
+      "text": "ICT = information and communications technology ITU = International Telecommunication Union M&E = monitoring and evaluation SMART = Standards-based, Machine-readable, Adaptive, Requirements-based and Testable WHO core indicator sets Global digital health index WHO digital health atlas Digital health investment review tool HIS stages of continuous improvement + Conduct an inventory of existing or previously used software applications, ICT systems and other tools to better understand the requirements for reuse and interoperability + Develop a national digital health strategy outlining overarching needs, desired activities and outcomes + Define a vision for how the health system will be strengthened through the use of digital technology + Formulate a digital health investment roadmap to support the national digital health strategy + Plan and identify appropriate digital interventions, alongside the health and data content, to improve health system processes and address programmatic needs + Monitor implementation to ensure digital implementations are functioning as intended and having the desired effect + Foster data-driven adaptive change management within the overall health system + Identify validated health content appropriate for the implementation context + Ensure use of content aligned with identified standards for the future state + Maintain and sustain digital health implementations + Identify risks and appropriate mitigations ASSESSING THE CURRENT STATE AND ENABLING ENVIRONMENT PHASE 01 DEFINING THE FUTURE STATE PHASE 03 M&E OF DIGITAL HEALTH IMPLEMENTATIONS AND FOSTERING DATA USE PHASE 06 DETERMINING HEALTH CONTENT REQUIREMENTS PHASE 05 ESTABLISHING A SHARED UNDERSTANDING AND STRATEGIC PLANNING PHASE 02 IMPLEMENTING, MAINTAINING AND SCALING PHASE 07 PLANNING THE ENTERPRISE ARCHITECTURE PHASE 04 WHO–ITU national eHealth strategy toolkit WHO handbook for health supply chain architecture (this document) WHO classification of digital health interventions WHO guideline: recommendations on digital interventions for health system strengthening ITU digital health platform handbook UNICEF humancentred design toolkit World Bank digital identity toolkit WHO digital clearinghouse Digital implementation investment guide Asian Development Bank total cost of ownership tool WHO handbook for health supply chain architecture (this document) WHO MAPS toolkit: mHealth assessment and planning for scale WHO handbook for digitalizing primary health care Be He@lthy, Be Mobile handbooks for noncommunicable diseases PATH Defining and building a data use culture MEASURE data demand and use of resources WHO SCORE WHO M&E digital health interventions ITU SDG digital investment framework (eGov) Open Health Information Exchange (OpenHIE) PDF for print Online environment The Open Group Architecture Framework (TOGAF) Guidance for investing in digital health Digital Square global goods guidebook Principles for donor alignment Principles for digital development Machinereadable recommendations Digital adaptation kits WHO SMART guidelines STEPS Source: adapted from the 2020 WHO Digital Implementation Investment Guide (1). + Review the current state and develop an architecture blueprint for the design of the digital health implementations + Identify validated open standards to ensure data exchange, systems integration and future-proofing of digital health implementations 5 Alignment with WHO’s SMART Guidelines This handbook aligns with WHO’s SMART Guidelines initiative by offering guidance on DHSC implementations that synchronize with digital health initiatives.",
+      "markers": [
+        "recommendation"
+      ],
+      "state": "captured",
+      "node": "annexes/p-annexes-page-068"
+    },
+    {
+      "sectionId": "sec-003-introduction",
+      "location": "p5:s48",
+      "page": 5,
+      "text": "The SMART Guidelines offer a step-by-step pathway that builds five progressive knowledge layers and associated products, to advance the adoption of best clinical and data practices: →L1 Narrative: enhanced guidelines and data recommendations →L2 Operational: digital adaptation kits →L3 Machine-readable: machine-readable recommendations →L4 Executable: reference applications and services →L5 Dynamic: precision health models.",
+      "markers": [
+        "recommendation"
+      ],
+      "state": "captured",
+      "node": "introduction/p-introduction-page-016"
+    },
+    {
+      "sectionId": "sec-003-introduction",
+      "location": "p5:s49",
+      "page": 5,
+      "text": "These steps help developers translate recommendations into specifications and standards, help technologists integrate recommendations into updatable digital systems and help countries localize, make interoperable, institutionalize and update digital systems consistent with evidence-based recommendations (13).",
+      "markers": [
+        "recommendation"
+      ],
+      "state": "captured",
+      "node": "introduction/p-introduction-page-016"
+    },
+    {
+      "sectionId": "sec-003-introduction",
+      "location": "p5:s52",
+      "page": 5,
+      "text": "L1 Narrative Guideline and data recommendations: L2 Operational Semi-structured documentation of operational and functional requirments: L3 \u0007Machine - readable Structured, software-neutral specifications, code, terminology and interoperability standards: L4 \u0007Executable Software that is able to execute static algorithms and interoperable digital components and deliver operational and functional requirements: L5 Dynamic Executable dynamic algorithms that are trained and optimi zed with advance analytics to achieve prioriti ze outcomes: Data, evidence, and impact Research and evidence base Enhanced guidelines Digital adaptation kits Machine-readable recommendations Reference software Precision health models Localisation Evidence from digital implementations Knowledge layers and associated products Country implementation Fig 6.",
+      "markers": [
+        "recommendation"
+      ],
+      "state": "captured",
+      "node": "introduction/p-introduction-page-016"
+    },
+    {
+      "sectionId": "sec-003-introduction",
+      "location": "p5:s57",
+      "page": 5,
+      "text": "In particular, they define recommended public health and clinical business processes that use structured, task-based workflows.",
+      "markers": [
+        "recommendation"
+      ],
+      "state": "captured",
+      "node": "introduction/p-introduction-page-017"
+    },
+    {
+      "sectionId": "sec-004-1-defining-a-holistic-dhsc-strategy",
+      "location": "p6:s7",
+      "page": 6,
+      "text": "The DHSC strategy should align closely with the country’s IT strategy, health strategy, medicines and health product strategies, supply chain strategy and digital health strategy.",
+      "markers": [
+        "obligation"
+      ],
+      "state": "captured",
+      "node": "ch01-dhsc-strategy/p-ch01-page-020"
+    },
+    {
+      "sectionId": "sec-004-1-defining-a-holistic-dhsc-strategy",
+      "location": "p6:s8",
+      "page": 6,
+      "text": "National priorities should be the driving force behind DHSC implementation initiatives.",
+      "markers": [
+        "obligation"
+      ],
+      "state": "captured",
+      "node": "ch01-dhsc-strategy/p-ch01-page-020"
+    },
+    {
+      "sectionId": "sec-006-step-1-identify-and-engage-all-relevant-stakehol",
+      "location": "p8:s10",
+      "page": 8,
+      "text": "The TWG should support the overall governance and planning of DHSC implementation activities, and the steering committee should provide leadership and oversight for all implementation activities. » DHSC stakeholder matrix » DHSC steering committee terms of reference » DHSC TWG terms of reference BEST PRACTICES Ð Secure upfront buy-in and support from key senior leaders within the MOH who will champion the cause.",
+      "markers": [
+        "obligation"
+      ],
+      "state": "captured",
+      "node": "ch01-dhsc-strategy/p-ch01-page-022"
+    },
+    {
+      "sectionId": "sec-007-step-2-analyse-the-current-state-of-hsciss",
+      "location": "p9:s10",
+      "page": 9,
+      "text": "Prioritize challenges, problems and needs that should be addressed within a defined time frame (e.g., one year, three years or five years). » Health supply chain digital transformation priorities RESOURCES National Supply Chain Assessment (NSCA) Toolkit (22) Template for prioritizing DHSC challenges (Annex 3) Illustrative template that maps today’s challenges to future outcomes (Annex 4)",
+      "markers": [
+        "obligation"
+      ],
+      "state": "captured",
+      "node": "annexes/t-annexes-annex-4"
+    },
+    {
+      "sectionId": "sec-008-step-3-define-the-dhsc-vision-and-strategic-goal",
+      "location": "p10:s4",
+      "page": 10,
+      "text": "The goals should link to the DHSC implementation activities.",
+      "markers": [
+        "obligation"
+      ],
+      "state": "captured",
+      "node": "ch01-dhsc-strategy/p-ch01-page-024"
+    },
+    {
+      "sectionId": "sec-010-2-defining-the-dhsc-architecture",
+      "location": "p12:s6",
+      "page": 12,
+      "text": "The architecture should comprehensively support all the supply chain functions, their data requirements and the need for interoperability between not only various supply chain functions but also between the entire ecosystem and other digital health systems (including health financing and insurance systems and regulatory systems).",
+      "markers": [
+        "obligation"
+      ],
+      "state": "captured",
+      "node": "ch02-dhsc-architecture/p-ch02-page-028"
+    },
+    {
+      "sectionId": "sec-010-2-defining-the-dhsc-architecture",
+      "location": "p12:s7",
+      "page": 12,
+      "text": "The DHSC architecture should align with the priorities of the country’s information and communications technology (ICT) architecture and the digital health architecture.",
+      "markers": [
+        "obligation"
+      ],
+      "state": "captured",
+      "node": "ch02-dhsc-architecture/p-ch02-page-028"
+    },
+    {
+      "sectionId": "sec-011-is-a-dhsc-architecture-necessary",
+      "location": "p13:s5",
+      "page": 13,
+      "text": "Health supply chains should be able to quickly respond to exceptions such as stockouts and quality issues like product recalls.",
+      "markers": [
+        "obligation"
+      ],
+      "state": "captured",
+      "node": "ch02-dhsc-architecture/p-ch02-page-028"
+    },
+    {
+      "sectionId": "sec-011-is-a-dhsc-architecture-necessary",
+      "location": "p13:s6",
+      "page": 13,
+      "text": "More importantly, they should support patient safety by ensuring that the products dispensed to and consumed by individuals are quality assured and are not falsified.",
+      "markers": [
+        "obligation"
+      ],
+      "state": "captured",
+      "node": "ch02-dhsc-architecture/p-ch02-page-028"
+    },
+    {
+      "sectionId": "sec-015-step-2-define-a-target-dhsc-architecture",
+      "location": "p17:s9",
+      "page": 17,
+      "text": "A key mandate of the TWG should be oversight in this area.",
+      "markers": [
+        "obligation"
+      ],
+      "state": "captured",
+      "node": "ch02-dhsc-architecture/p-ch02-page-032"
+    },
+    {
+      "sectionId": "sec-015-step-2-define-a-target-dhsc-architecture",
+      "location": "p17:s12",
+      "page": 17,
+      "text": "However, actual consumption should include what is dispensed to individuals, product expiries, wastages and inventory shrinkage.",
+      "markers": [
+        "obligation"
+      ],
+      "state": "captured",
+      "node": "ch02-dhsc-architecture/p-ch02-page-032"
+    },
+    {
+      "sectionId": "sec-015-step-2-define-a-target-dhsc-architecture",
+      "location": "p17:s13",
+      "page": 17,
+      "text": "Systems, especially at the last mile of the supply chain, should have the ability to track and capture batch details and serial numbers, where available, as part of product expiries, wastages, inventory shrinkage and dispensation.",
+      "markers": [
+        "obligation"
+      ],
+      "state": "captured",
+      "node": "ch02-dhsc-architecture/p-ch02-page-032"
+    },
+    {
+      "sectionId": "sec-015-step-2-define-a-target-dhsc-architecture",
+      "location": "p17:s16",
+      "page": 17,
+      "text": "13 SHARED SERVICES DATA SERVICES DATA SOURCES Institution-based health info. system and data sources Population-based health info system and data sources Analytics, dashboards, aids, repositories Digital health platform Shared services Business domain services Registry services Terminology services Health worker registry Client registry Product registry Facility registry Logistics mgmt info system Shared health record Health mgmt info system Digital and nondigital data sets sourced from processes that systematically record information within health institutions and facilities (e.g., Service Availability and Readiness Assessment) Provides software capabilities, or “services,” that are specific to health care and may be used by other applications across the digital health enterprise Provides software capabilities, or “services,” that are canonical/ master “lists” and are enforced by specified governance mechanisms Digital and nondigital data sets sourced from processes that systematically record information about members of a population (e.g., census, Demographic and Health Surveys) Data tools that are used to facilitate decision- making (e.g., GIS) INTER- OPERABILITY LAYER Enabling components Provides software capabilities to support managed data exchange and interoperability between applications and services across the digital health enterprise APPLICATIONS WITH INTERVENTIONS FOR: Health programme Use case Health programme Use case A B C D Point-of-service applications Applications that are reused within more than one use case or health programme area Applications that are uniquely used for only one use case or health programme area Investment in new software Funded software under development Investment in strengthening software Software for decommissioning Funded fully functional software Investment in scaling functional software LEGEND Reused point-ofservice application Unique point-ofservice application ENTERPRISE EXTERNAL SYSTEMS Nonhealth digital applications, services, interoperabilityenabling components and data sources with capabilities that can be used by the digital health enterprise (e.g., national unique identification system, national procurement system, national weather service data sources) Source: adapted from the 2020 WHO Digital Implementation Investment Guide (1).",
+      "markers": [
+        "permission"
+      ],
+      "state": "captured",
+      "node": "annexes/p-annexes-page-068"
+    },
+    {
+      "sectionId": "sec-015-step-2-define-a-target-dhsc-architecture",
+      "location": "p17:s23",
+      "page": 17,
+      "text": "EXTERNAL SYSTEMS Systems and data repositories (e.g., product master data and serialization data) that may be used by the DHSC enterprise.",
+      "markers": [
+        "permission"
+      ],
+      "state": "captured",
+      "node": "ch02-dhsc-architecture/p-ch02-page-034"
+    },
+    {
+      "sectionId": "sec-015-step-2-define-a-target-dhsc-architecture",
+      "location": "p17:s42",
+      "page": 17,
+      "text": "These resources specify what capabilities should be supported by each of the components within the “health supply chain information systems” layer. → Data services.",
+      "markers": [
+        "obligation"
+      ],
+      "state": "captured",
+      "node": "ch02-dhsc-architecture/p-ch02-page-035"
+    },
+    {
+      "sectionId": "sec-016-illustrative-architectural-approaches-and-govern",
+      "location": "p18:s1",
+      "page": 18,
+      "text": "Countries often have a mixture of needs and capabilities that should be reflected in their DHSC architecture.",
+      "markers": [
+        "obligation"
+      ],
+      "state": "captured",
+      "node": "ch02-dhsc-architecture/p-ch02-page-035"
+    },
+    {
+      "sectionId": "sec-016-illustrative-architectural-approaches-and-govern",
+      "location": "p18:s42",
+      "page": 18,
+      "text": "19 In addition to the architectural approaches detailed above, SCISMM, TSS v2 and the IHE white paper (23) can provide guidance on the health supply chain functions that information systems should support to minimize manual tasks and improve data quality and availability.",
+      "markers": [
+        "obligation"
+      ],
+      "state": "captured",
+      "node": "ch02-dhsc-architecture/p-ch02-page-040"
+    },
+    {
+      "sectionId": "sec-016-illustrative-architectural-approaches-and-govern",
+      "location": "p18:s44",
+      "page": 18,
+      "text": "As noted earlier, one benefit that the DHSC architecture should deliver is timely visibility of the end-to-end health supply chain so leaders can make informed decisions to deliver health products to individuals when and where they need them.",
+      "markers": [
+        "obligation"
+      ],
+      "state": "captured",
+      "node": "ch02-dhsc-architecture/p-ch02-page-040"
+    },
+    {
+      "sectionId": "sec-018-3-planning-for-scalable-implementation-and-susta",
+      "location": "p20:s26",
+      "page": 20,
+      "text": "As outlined in the upcoming steps, each intervention should include a project implementation plan, an operational plan and a budget that considers the total cost of ownership.",
+      "markers": [
+        "obligation"
+      ],
+      "state": "captured",
+      "node": "ch03-implementation-and-operations/p-ch03-page-046"
+    },
+    {
+      "sectionId": "sec-019-step-1-plan-the-implementation-of-each-dhsc-inte",
+      "location": "p21:s7",
+      "page": 21,
+      "text": "Define the project performance monitoring and analysis framework. » Project charter » Project management plan » Steering committee and TWG terms of reference » Project performance monitoring and analysis framework RESOURCES Risk register template (Annex 6) The project charter should include details about the following: →scope →stakeholders →timeline →budget →risks →deliverables →quality criteria →governance mechanism.",
+      "markers": [
+        "obligation"
+      ],
+      "state": "captured",
+      "node": "ch03-implementation-and-operations/p-ch03-page-047"
+    },
+    {
+      "sectionId": "sec-019-step-1-plan-the-implementation-of-each-dhsc-inte",
+      "location": "p21:s8",
+      "page": 21,
+      "text": "The project management plan should include the following: →detailed project implementation plan with activities, timelines and milestones for each phase (such as design, development, testing and deployment); →stakeholder matrix with responsibilities and accountabilities (such as a RACI matrix – responsible, accountable, consulted, informed); →resource details, including people, hardware and software; →budget details for phases; →communication plan, including frequency of project management and technical meetings, issue management and escalation process; →risk register with mitigations; →change control process; →change management plan (including training and rollout plan); and →quality management and closure plan.",
+      "markers": [
+        "obligation"
+      ],
+      "state": "captured",
+      "node": "ch03-implementation-and-operations/p-ch03-page-047"
+    },
+    {
+      "sectionId": "sec-019-step-1-plan-the-implementation-of-each-dhsc-inte",
+      "location": "p21:s9",
+      "page": 21,
+      "text": "The project performance monitoring and analysis framework should include the following: →project baseline (such as initial schedule, budget and indicators related to the supply chain process that is being digitalized); and →reporting schedule, mechanism and template that includes various aspects such as schedule, quality, budget and risks.",
+      "markers": [
+        "obligation"
+      ],
+      "state": "captured",
+      "node": "ch03-implementation-and-operations/p-ch03-page-047"
+    },
+    {
+      "sectionId": "sec-020-step-2-develop-an-operational-plan-for-each-dhsc",
+      "location": "p22:s1",
+      "page": 22,
+      "text": "2 Step The operational plan should determine the necessary resources and the effort needed to effectively maintain and run the DHSC systems.",
+      "markers": [
+        "obligation"
+      ],
+      "state": "captured",
+      "node": "ch03-implementation-and-operations/p-ch03-page-048"
+    },
+    {
+      "sectionId": "sec-020-step-2-develop-an-operational-plan-for-each-dhsc",
+      "location": "p22:s8",
+      "page": 22,
+      "text": "Develop an operational performance monitoring and evaluation framework. » Updated DHSC stakeholder matrix that includes operations management » Operations and sustainability plan » Operational performance monitoring and evaluation framework The operations and sustainability plan should include the following: →details of stakeholders who will own and maintain the DHSC system/application; →required resources (such as maintenance personnel, hardware, network infrastructure and backup power); →recurring knowledge management needs (including training, job aid updates, recruitments and job rotations); →recurring costs for the required resources, system subscriptions, knowledge management, monitoring and evaluation, and efforts to maintain and operate the application; →plan for data backups and system redundancy to mitigate the impact of system failures; →change management and governance process for new requirements arising from evolving needs; and →financial strategy to cover all recurring operational costs.",
+      "markers": [
+        "obligation"
+      ],
+      "state": "captured",
+      "node": "ch03-implementation-and-operations/p-ch03-page-048"
+    },
+    {
+      "sectionId": "sec-020-step-2-develop-an-operational-plan-for-each-dhsc",
+      "location": "p22:s9",
+      "page": 22,
+      "text": "The operational performance monitoring and analysis framework should include the following: →baseline KPIs related to the supply chain process being digitalized; and →reporting schedule, mechanism and template that includes various aspects such as operational costs, risks, KPIs, and any constraints and issues.",
+      "markers": [
+        "obligation"
+      ],
+      "state": "captured",
+      "node": "ch03-implementation-and-operations/p-ch03-page-048"
+    },
+    {
+      "sectionId": "sec-026-traceability-models",
+      "location": "p28:s6",
+      "page": 28,
+      "text": "This handbook does not recommend a particular model because the best choice depends on the context and various other factors.",
+      "markers": [
+        "recommendation"
+      ],
+      "state": "captured",
+      "node": "ch04-traceability/p-ch04-page-054"
+    },
+    {
+      "sectionId": "sec-026-traceability-models",
+      "location": "p28:s21",
+      "page": 28,
+      "text": "Traceability processes should be designed according to a structured architecture that is independent of the technology used to capture and share data.",
+      "markers": [
+        "obligation"
+      ],
+      "state": "captured",
+      "node": "ch04-traceability/p-ch04-page-056"
+    },
+    {
+      "sectionId": "sec-031-references",
+      "location": "p33:s45",
+      "page": 33,
+      "text": "WHO SMART guidelines: optimising country-level use of guideline recommendations in the digital age.",
+      "markers": [
+        "recommendation"
+      ],
+      "state": "captured",
+      "node": "references/p-references-page-065"
+    },
+    {
+      "sectionId": "sec-031-references",
+      "location": "p33:s70",
+      "page": 33,
+      "text": "Digital adaptation kit for antenatal care: operational requirements for implementing WHO recommendations in digital systems.",
+      "markers": [
+        "recommendation"
+      ],
+      "state": "captured",
+      "node": "references/p-references-page-065"
+    },
+    {
+      "sectionId": "sec-031-references",
+      "location": "p33:s89",
+      "page": 33,
+      "text": "Recommendations on common technical denominators for traceability systems for medicines to allow for interoperability.",
+      "markers": [
+        "recommendation"
+      ],
+      "state": "captured",
+      "node": "references/p-references-page-065"
+    },
+    {
+      "sectionId": "sec-031-references",
+      "location": "p33:s90",
+      "page": 33,
+      "text": "International Coalition of Medicines Regulatory Authorities (ICMRA); 2021 (https://www.icmra.info/drupal/sites/default/ files/2021-08/recommendations_on_common_technical_denominators_for_T&T_systems_to_allow_for_interoperability_final.pdf).",
+      "markers": [
+        "recommendation"
+      ],
+      "state": "captured",
+      "node": "references/p-references-page-065"
+    }
+  ],
+  "problems": [],
+  "l1Entry": "who-iris/library/9789240101197-eng",
+  "folio": "folio/dth-sc"
+}

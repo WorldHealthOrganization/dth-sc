@@ -1,0 +1,634 @@
+{
+  "$schema": "folio-workflow-instance/v1",
+  "id": "contentchangereview--dth-sc-45-as-drawn-figures-cs-002",
+  "processId": "Process_ContentChangeReview",
+  "source": "folio-assistant-core/collab/processes/content/content-change-review.bpmn",
+  "subject": "dth-sc#45 as-drawn figures CS-002",
+  "carriedBeans": [],
+  "tokens": [
+    "Call_StageChange"
+  ],
+  "arrivals": {},
+  "history": [
+    {
+      "at": "2026-11-17T12:26:05.758Z",
+      "node": "Start_Author",
+      "note": "instance started"
+    },
+    {
+      "at": "2026-11-17T12:26:13.565Z",
+      "node": "Task_DescribeChange",
+      "actor": "claude-code",
+      "note": "Same change as CS-001 (superseded because #45's base moved to 6005a27, dth-sc#52, after CS-001 started): the 26 figure blocks redrawn as SVG from the source PDF's vector layer, Figs 15-19 offered as drawn on their ArchiMate view pages. Owner approval by card, litlfred 2026-11-17 ('Merge on green'). PR litlfred/dth-sc#45.",
+      "authz": {
+        "allowed": true,
+        "mode": "strict",
+        "authenticatedBy": "github",
+        "actor": "owner",
+        "account": "litlfred",
+        "role": "author",
+        "assignment": "unconstrained",
+        "authorized": "permit",
+        "findings": []
+      },
+      "prov": {
+        "@type": "prov:Activity",
+        "@id": "contentchangereview--dth-sc-45-as-drawn-figures-cs-002#1",
+        "prov:startedAtTime": "2026-11-17T12:26:13.565Z",
+        "prov:qualifiedAssociation": {
+          "prov:agent": "owner",
+          "prov:hadRole": "author",
+          "prov:hadPlan": "content-change-review#Task_DescribeChange"
+        },
+        "cat-harness:underPolicy": [
+          "https://litlfred.github.io/fhir-harness/policies/ig-publisher-service",
+          "https://litlfred.github.io/folio-assistant-core/policies/content-agents",
+          "https://litlfred.github.io/folio-assistant/policies/folio-defaults",
+          "https://litlfred.github.io/folio-assistant/policies/http-gateway"
+        ]
+      }
+    },
+    {
+      "at": "2026-11-17T12:26:34.252Z",
+      "node": "Call_BeanOpen",
+      "actor": "claude-code",
+      "note": "subprocess Process_BeanOpen completed"
+    },
+    {
+      "at": "2026-11-17T12:26:36.683Z",
+      "node": "GW_BeanYours",
+      "outcome": "claimed",
+      "actor": "claude-code",
+      "note": "dth-sc-atxz is this session's.",
+      "authz": {
+        "allowed": true,
+        "mode": "strict",
+        "authenticatedBy": "github",
+        "actor": "owner",
+        "account": "litlfred",
+        "role": "authoring-agent",
+        "assignment": "unconstrained",
+        "authorized": "permit",
+        "findings": []
+      },
+      "prov": {
+        "@type": "prov:Activity",
+        "@id": "contentchangereview--dth-sc-45-as-drawn-figures-cs-002#3",
+        "prov:startedAtTime": "2026-11-17T12:26:36.683Z",
+        "prov:qualifiedAssociation": {
+          "prov:agent": "owner",
+          "prov:hadRole": "authoring-agent",
+          "prov:hadPlan": "content-change-review#GW_BeanYours"
+        },
+        "cat-harness:underPolicy": [
+          "https://litlfred.github.io/fhir-harness/policies/ig-publisher-service",
+          "https://litlfred.github.io/folio-assistant-core/policies/content-agents",
+          "https://litlfred.github.io/folio-assistant/policies/folio-defaults",
+          "https://litlfred.github.io/folio-assistant/policies/http-gateway"
+        ]
+      }
+    },
+    {
+      "at": "2026-11-17T12:27:12.250Z",
+      "node": "Call_MakeChange",
+      "actor": "claude-code",
+      "note": "subprocess Process_ContentChangeReviewMake completed"
+    }
+  ],
+  "status": "running",
+  "startedAt": "2026-11-17T12:26:05.758Z",
+  "updatedAt": "2026-11-17T12:27:12.250Z",
+  "children": {
+    "Call_BeanOpen": {
+      "id": "contentchangereview--dth-sc-45-as-drawn-figures-cs-002/Call_BeanOpen",
+      "processId": "Process_BeanOpen",
+      "source": "cat-harness/sdlc/processes/bean-open.bpmn",
+      "subject": "dth-sc#45 as-drawn figures CS-002",
+      "carriedBeans": [],
+      "tokens": [],
+      "arrivals": {},
+      "history": [
+        {
+          "at": "2026-11-17T12:26:13.567Z",
+          "node": "Open_Start",
+          "note": "instance started"
+        },
+        {
+          "at": "2026-11-17T12:26:16.127Z",
+          "node": "Open_CheckExists",
+          "actor": "claude-code",
+          "note": "beans list: dth-sc-atxz exists for dth-sc#45 (CS-001).",
+          "authz": {
+            "allowed": true,
+            "mode": "strict",
+            "authenticatedBy": "github",
+            "actor": "owner",
+            "account": "litlfred",
+            "role": "authoring-agent",
+            "assignment": "unconstrained",
+            "authorized": "permit",
+            "findings": []
+          },
+          "prov": {
+            "@type": "prov:Activity",
+            "@id": "contentchangereview--dth-sc-45-as-drawn-figures-cs-002/Call_BeanOpen#1",
+            "prov:startedAtTime": "2026-11-17T12:26:16.127Z",
+            "prov:qualifiedAssociation": {
+              "prov:agent": "owner",
+              "prov:hadRole": "authoring-agent",
+              "prov:hadPlan": "bean-open#Open_CheckExists"
+            },
+            "cat-harness:underPolicy": [
+              "https://litlfred.github.io/fhir-harness/policies/ig-publisher-service",
+              "https://litlfred.github.io/folio-assistant-core/policies/content-agents",
+              "https://litlfred.github.io/folio-assistant/policies/folio-defaults",
+              "https://litlfred.github.io/folio-assistant/policies/http-gateway"
+            ]
+          }
+        },
+        {
+          "at": "2026-11-17T12:26:18.428Z",
+          "node": "Open_Exists",
+          "outcome": "yes",
+          "actor": "claude-code",
+          "note": "Reuse dth-sc-atxz.",
+          "authz": {
+            "allowed": true,
+            "mode": "strict",
+            "authenticatedBy": "github",
+            "actor": "owner",
+            "account": "litlfred",
+            "role": "authoring-agent",
+            "assignment": "unconstrained",
+            "authorized": "permit",
+            "findings": []
+          },
+          "prov": {
+            "@type": "prov:Activity",
+            "@id": "contentchangereview--dth-sc-45-as-drawn-figures-cs-002/Call_BeanOpen#2",
+            "prov:startedAtTime": "2026-11-17T12:26:18.428Z",
+            "prov:qualifiedAssociation": {
+              "prov:agent": "owner",
+              "prov:hadRole": "authoring-agent",
+              "prov:hadPlan": "bean-open#Open_Exists"
+            },
+            "cat-harness:underPolicy": [
+              "https://litlfred.github.io/fhir-harness/policies/ig-publisher-service",
+              "https://litlfred.github.io/folio-assistant-core/policies/content-agents",
+              "https://litlfred.github.io/folio-assistant/policies/folio-defaults",
+              "https://litlfred.github.io/folio-assistant/policies/http-gateway"
+            ]
+          }
+        },
+        {
+          "at": "2026-11-17T12:26:25.270Z",
+          "node": "Open_Owner",
+          "outcome": "mine / unclaimed",
+          "actor": "claude-code",
+          "note": "dth-sc-atxz is this session's, in-progress.",
+          "authz": {
+            "allowed": true,
+            "mode": "strict",
+            "authenticatedBy": "github",
+            "actor": "owner",
+            "account": "litlfred",
+            "role": "authoring-agent",
+            "assignment": "unconstrained",
+            "authorized": "permit",
+            "findings": []
+          },
+          "prov": {
+            "@type": "prov:Activity",
+            "@id": "contentchangereview--dth-sc-45-as-drawn-figures-cs-002/Call_BeanOpen#3",
+            "prov:startedAtTime": "2026-11-17T12:26:25.270Z",
+            "prov:qualifiedAssociation": {
+              "prov:agent": "owner",
+              "prov:hadRole": "authoring-agent",
+              "prov:hadPlan": "bean-open#Open_Owner"
+            },
+            "cat-harness:underPolicy": [
+              "https://litlfred.github.io/fhir-harness/policies/ig-publisher-service",
+              "https://litlfred.github.io/folio-assistant-core/policies/content-agents",
+              "https://litlfred.github.io/folio-assistant/policies/folio-defaults",
+              "https://litlfred.github.io/folio-assistant/policies/http-gateway"
+            ]
+          }
+        },
+        {
+          "at": "2026-11-17T12:26:34.250Z",
+          "node": "Open_Claim",
+          "actor": "claude-code",
+          "note": "dth-sc-atxz already in-progress, this session's.",
+          "authz": {
+            "allowed": true,
+            "mode": "strict",
+            "authenticatedBy": "github",
+            "actor": "owner",
+            "account": "litlfred",
+            "role": "authoring-agent",
+            "assignment": "unconstrained",
+            "authorized": "permit",
+            "findings": []
+          },
+          "prov": {
+            "@type": "prov:Activity",
+            "@id": "contentchangereview--dth-sc-45-as-drawn-figures-cs-002/Call_BeanOpen#4",
+            "prov:startedAtTime": "2026-11-17T12:26:34.250Z",
+            "prov:qualifiedAssociation": {
+              "prov:agent": "owner",
+              "prov:hadRole": "authoring-agent",
+              "prov:hadPlan": "bean-open#Open_Claim"
+            },
+            "cat-harness:underPolicy": [
+              "https://litlfred.github.io/fhir-harness/policies/ig-publisher-service",
+              "https://litlfred.github.io/folio-assistant-core/policies/content-agents",
+              "https://litlfred.github.io/folio-assistant/policies/folio-defaults",
+              "https://litlfred.github.io/folio-assistant/policies/http-gateway"
+            ]
+          }
+        },
+        {
+          "at": "2026-11-17T12:26:34.252Z",
+          "node": "Open_Claimed",
+          "note": "end event reached"
+        }
+      ],
+      "status": "completed",
+      "startedAt": "2026-11-17T12:26:13.567Z",
+      "updatedAt": "2026-11-17T12:26:34.252Z"
+    },
+    "Call_MakeChange": {
+      "id": "contentchangereview--dth-sc-45-as-drawn-figures-cs-002/Call_MakeChange",
+      "processId": "Process_ContentChangeReviewMake",
+      "source": "folio-assistant-core/collab/processes/content/content-change-review-make.bpmn",
+      "subject": "dth-sc#45 as-drawn figures CS-002",
+      "carriedBeans": [],
+      "tokens": [],
+      "arrivals": {},
+      "history": [
+        {
+          "at": "2026-11-17T12:26:36.685Z",
+          "node": "Start_Agent",
+          "note": "instance started"
+        },
+        {
+          "at": "2026-11-17T12:26:41.885Z",
+          "node": "Task_DetectScope",
+          "actor": "claude-code",
+          "note": "Scope CS-002: the same 26 figure blocks as CS-001 (fig:1,fig:2,fig:3,fig:4,fig:7,fig:8,fig:9,fig:10,fig:11,fig:13,fig:14,fig:15,fig:16,fig:17,fig:18,fig:19,fig:20,fig:21,fig:22,fig:23,fig:24,fig:25,fig:26-27,fig:28-29,fig:30,fig:31-32), their media SVGs and figure-data/as-drawn/*.json, archimate/cat-archimate.config.json (figures[].asDrawn for Figs 15-19), figure-coverage.exclusions.json and review-anchors.json. No prose, glossary or recommendation changes.",
+          "authz": {
+            "allowed": true,
+            "mode": "strict",
+            "authenticatedBy": "github",
+            "actor": "owner",
+            "account": "litlfred",
+            "role": "authoring-agent",
+            "assignment": "unconstrained",
+            "authorized": "permit",
+            "findings": []
+          },
+          "prov": {
+            "@type": "prov:Activity",
+            "@id": "contentchangereview--dth-sc-45-as-drawn-figures-cs-002/Call_MakeChange#1",
+            "prov:startedAtTime": "2026-11-17T12:26:41.885Z",
+            "prov:qualifiedAssociation": {
+              "prov:agent": "owner",
+              "prov:hadRole": "authoring-agent",
+              "prov:hadPlan": "content-change-review-make#Task_DetectScope"
+            },
+            "cat-harness:underPolicy": [
+              "https://litlfred.github.io/fhir-harness/policies/ig-publisher-service",
+              "https://litlfred.github.io/folio-assistant-core/policies/content-agents",
+              "https://litlfred.github.io/folio-assistant/policies/folio-defaults",
+              "https://litlfred.github.io/folio-assistant/policies/http-gateway"
+            ]
+          }
+        },
+        {
+          "at": "2026-11-17T12:26:51.430Z",
+          "node": "Task_CreateBranch",
+          "actor": "claude-code",
+          "note": "Branch claude/dth-sc-as-drawn-figures (PR litlfred/dth-sc#45), main merged in at 6005a27 (dth-sc#52; merge 1fa5ca1).",
+          "authz": {
+            "allowed": true,
+            "mode": "strict",
+            "authenticatedBy": "github",
+            "actor": "owner",
+            "account": "litlfred",
+            "role": "authoring-agent",
+            "assignment": "unconstrained",
+            "authorized": "permit",
+            "findings": []
+          },
+          "prov": {
+            "@type": "prov:Activity",
+            "@id": "contentchangereview--dth-sc-45-as-drawn-figures-cs-002/Call_MakeChange#2",
+            "prov:startedAtTime": "2026-11-17T12:26:51.430Z",
+            "prov:qualifiedAssociation": {
+              "prov:agent": "owner",
+              "prov:hadRole": "authoring-agent",
+              "prov:hadPlan": "content-change-review-make#Task_CreateBranch"
+            },
+            "cat-harness:underPolicy": [
+              "https://litlfred.github.io/fhir-harness/policies/ig-publisher-service",
+              "https://litlfred.github.io/folio-assistant-core/policies/content-agents",
+              "https://litlfred.github.io/folio-assistant/policies/folio-defaults",
+              "https://litlfred.github.io/folio-assistant/policies/http-gateway"
+            ]
+          }
+        },
+        {
+          "at": "2026-11-17T12:26:53.233Z",
+          "node": "Task_EditContent",
+          "actor": "claude-code",
+          "note": "The edits are the PR's commits by the original #45 session (archived): f39af78, 657dd6c, 6eb9945; plus abefa5a by this session (review-anchors.json regenerated). Only figure blocks' file/meta and media change; captions are the source's.",
+          "authz": {
+            "allowed": true,
+            "mode": "strict",
+            "authenticatedBy": "github",
+            "actor": "owner",
+            "account": "litlfred",
+            "role": "authoring-agent",
+            "assignment": "unconstrained",
+            "authorized": "permit",
+            "findings": []
+          },
+          "prov": {
+            "@type": "prov:Activity",
+            "@id": "contentchangereview--dth-sc-45-as-drawn-figures-cs-002/Call_MakeChange#3",
+            "prov:startedAtTime": "2026-11-17T12:26:53.233Z",
+            "prov:qualifiedAssociation": {
+              "prov:agent": "owner",
+              "prov:hadRole": "authoring-agent",
+              "prov:hadPlan": "content-change-review-make#Task_EditContent"
+            },
+            "cat-harness:underPolicy": [
+              "https://litlfred.github.io/fhir-harness/policies/ig-publisher-service",
+              "https://litlfred.github.io/folio-assistant-core/policies/content-agents",
+              "https://litlfred.github.io/folio-assistant/policies/folio-defaults",
+              "https://litlfred.github.io/folio-assistant/policies/http-gateway"
+            ]
+          }
+        },
+        {
+          "at": "2026-11-17T12:26:55.060Z",
+          "node": "Task_EditLogic",
+          "actor": "claude-code",
+          "note": "Not needed: no deterministic logic changes; figure SVGs are generated by the platform tool from figure-data.",
+          "authz": {
+            "allowed": true,
+            "mode": "strict",
+            "authenticatedBy": "github",
+            "actor": "owner",
+            "account": "litlfred",
+            "role": "authoring-agent",
+            "assignment": "unconstrained",
+            "authorized": "permit",
+            "findings": []
+          },
+          "prov": {
+            "@type": "prov:Activity",
+            "@id": "contentchangereview--dth-sc-45-as-drawn-figures-cs-002/Call_MakeChange#4",
+            "prov:startedAtTime": "2026-11-17T12:26:55.060Z",
+            "prov:qualifiedAssociation": {
+              "prov:agent": "owner",
+              "prov:hadRole": "authoring-agent",
+              "prov:hadPlan": "content-change-review-make#Task_EditLogic"
+            },
+            "cat-harness:underPolicy": [
+              "https://litlfred.github.io/fhir-harness/policies/ig-publisher-service",
+              "https://litlfred.github.io/folio-assistant-core/policies/content-agents",
+              "https://litlfred.github.io/folio-assistant/policies/folio-defaults",
+              "https://litlfred.github.io/folio-assistant/policies/http-gateway"
+            ]
+          }
+        },
+        {
+          "at": "2026-11-17T12:26:56.823Z",
+          "node": "Task_AssessImpact",
+          "actor": "claude-code",
+          "note": "Downstream: dth-pc and dth-sfp link dth-sc's glossary terms and traceability concepts, not its figures, so are unaffected. Within dth-sc: the document site's figures, review-anchors.json, and the ArchiMate view pages of Figs 15-19 (As drawn / ArchiMate switch). No glossary, element or recommendation changes.",
+          "authz": {
+            "allowed": true,
+            "mode": "strict",
+            "authenticatedBy": "github",
+            "actor": "owner",
+            "account": "litlfred",
+            "role": "authoring-agent",
+            "assignment": "unconstrained",
+            "authorized": "permit",
+            "findings": []
+          },
+          "prov": {
+            "@type": "prov:Activity",
+            "@id": "contentchangereview--dth-sc-45-as-drawn-figures-cs-002/Call_MakeChange#5",
+            "prov:startedAtTime": "2026-11-17T12:26:56.823Z",
+            "prov:qualifiedAssociation": {
+              "prov:agent": "owner",
+              "prov:hadRole": "authoring-agent",
+              "prov:hadPlan": "content-change-review-make#Task_AssessImpact"
+            },
+            "cat-harness:underPolicy": [
+              "https://litlfred.github.io/fhir-harness/policies/ig-publisher-service",
+              "https://litlfred.github.io/folio-assistant-core/policies/content-agents",
+              "https://litlfred.github.io/folio-assistant/policies/folio-defaults",
+              "https://litlfred.github.io/folio-assistant/policies/http-gateway"
+            ]
+          }
+        },
+        {
+          "at": "2026-11-17T12:27:00.503Z",
+          "node": "Call_OptionsAnalysis",
+          "actor": "claude-code",
+          "note": "subprocess Process_OptionsAnalysis completed"
+        },
+        {
+          "at": "2026-11-17T12:27:12.248Z",
+          "node": "Task_CommitPush",
+          "actor": "claude-code",
+          "note": "Pushed claude/dth-sc-as-drawn-figures at 1fa5ca19e7f5e054a276581c283eb39ffbdcc63c (main merged at 6005a27, dth-sc#52, cat-harness-tools 4a96ee15). Checks on that head at the new pins: check:review-anchors current, check:dth-blocks pass, check:dth-glossary pass, check:kg-blocks 126 up to date, check:as-drawn 26 SVGs match their data; check:artefact-verification no longer reports check:as-drawn. No caption or prose changes (0 caption lines in the diff); no spelling tool is declared here.",
+          "authz": {
+            "allowed": true,
+            "mode": "strict",
+            "authenticatedBy": "github",
+            "actor": "owner",
+            "account": "litlfred",
+            "role": "authoring-agent",
+            "assignment": "unconstrained",
+            "authorized": "permit",
+            "findings": []
+          },
+          "prov": {
+            "@type": "prov:Activity",
+            "@id": "contentchangereview--dth-sc-45-as-drawn-figures-cs-002/Call_MakeChange#7",
+            "prov:startedAtTime": "2026-11-17T12:27:12.248Z",
+            "prov:qualifiedAssociation": {
+              "prov:agent": "owner",
+              "prov:hadRole": "authoring-agent",
+              "prov:hadPlan": "content-change-review-make#Task_CommitPush"
+            },
+            "cat-harness:underPolicy": [
+              "https://litlfred.github.io/fhir-harness/policies/ig-publisher-service",
+              "https://litlfred.github.io/folio-assistant-core/policies/content-agents",
+              "https://litlfred.github.io/folio-assistant/policies/folio-defaults",
+              "https://litlfred.github.io/folio-assistant/policies/http-gateway"
+            ]
+          }
+        },
+        {
+          "at": "2026-11-17T12:27:12.250Z",
+          "node": "End_Agent",
+          "note": "end event reached"
+        }
+      ],
+      "status": "completed",
+      "startedAt": "2026-11-17T12:26:36.685Z",
+      "updatedAt": "2026-11-17T12:27:12.250Z",
+      "children": {
+        "Call_OptionsAnalysis": {
+          "id": "contentchangereview--dth-sc-45-as-drawn-figures-cs-002/Call_MakeChange/Call_OptionsAnalysis",
+          "processId": "Process_OptionsAnalysis",
+          "source": "cat-harness/processes/process/options-analysis.bpmn",
+          "subject": "dth-sc#45 as-drawn figures CS-002",
+          "carriedBeans": [],
+          "tokens": [],
+          "arrivals": {},
+          "history": [
+            {
+              "at": "2026-11-17T12:26:56.825Z",
+              "node": "Start_Process_OptionsAnalysis",
+              "note": "instance started"
+            },
+            {
+              "at": "2026-11-17T12:26:58.641Z",
+              "node": "A_Frame",
+              "actor": "claude-code",
+              "note": "Trigger not met: impact confined to dth-sc's own rendered figures and view pages; the owner already decided (card, 2026-11-17, 'Merge on green').",
+              "authz": {
+                "allowed": true,
+                "mode": "strict",
+                "authenticatedBy": "github",
+                "actor": "owner",
+                "account": "litlfred",
+                "role": "business-analyst",
+                "assignment": "unconstrained",
+                "authorized": "permit",
+                "findings": []
+              },
+              "prov": {
+                "@type": "prov:Activity",
+                "@id": "contentchangereview--dth-sc-45-as-drawn-figures-cs-002/Call_MakeChange/Call_OptionsAnalysis#1",
+                "prov:startedAtTime": "2026-11-17T12:26:58.641Z",
+                "prov:qualifiedAssociation": {
+                  "prov:agent": "owner",
+                  "prov:hadRole": "business-analyst",
+                  "prov:hadPlan": "options-analysis#A_Frame"
+                },
+                "cat-harness:underPolicy": [
+                  "https://litlfred.github.io/fhir-harness/policies/ig-publisher-service",
+                  "https://litlfred.github.io/folio-assistant-core/policies/content-agents",
+                  "https://litlfred.github.io/folio-assistant/policies/folio-defaults",
+                  "https://litlfred.github.io/folio-assistant/policies/http-gateway"
+                ]
+              }
+            },
+            {
+              "at": "2026-11-17T12:27:00.502Z",
+              "node": "GW_Trigger",
+              "outcome": "no",
+              "actor": "claude-code",
+              "note": "Reversible (git revert) and not surprising (owner approved).",
+              "authz": {
+                "allowed": true,
+                "mode": "strict",
+                "authenticatedBy": "github",
+                "actor": "owner",
+                "account": "litlfred",
+                "role": "business-analyst",
+                "assignment": "unconstrained",
+                "authorized": "permit",
+                "findings": []
+              },
+              "prov": {
+                "@type": "prov:Activity",
+                "@id": "contentchangereview--dth-sc-45-as-drawn-figures-cs-002/Call_MakeChange/Call_OptionsAnalysis#2",
+                "prov:startedAtTime": "2026-11-17T12:27:00.502Z",
+                "prov:qualifiedAssociation": {
+                  "prov:agent": "owner",
+                  "prov:hadRole": "business-analyst",
+                  "prov:hadPlan": "options-analysis#GW_Trigger"
+                },
+                "cat-harness:underPolicy": [
+                  "https://litlfred.github.io/fhir-harness/policies/ig-publisher-service",
+                  "https://litlfred.github.io/folio-assistant-core/policies/content-agents",
+                  "https://litlfred.github.io/folio-assistant/policies/folio-defaults",
+                  "https://litlfred.github.io/folio-assistant/policies/http-gateway"
+                ]
+              }
+            },
+            {
+              "at": "2026-11-17T12:27:00.503Z",
+              "node": "End_TriggerNotMet",
+              "note": "end event reached"
+            }
+          ],
+          "status": "completed",
+          "startedAt": "2026-11-17T12:26:56.825Z",
+          "updatedAt": "2026-11-17T12:27:00.503Z"
+        }
+      }
+    },
+    "Call_StageChange": {
+      "id": "contentchangereview--dth-sc-45-as-drawn-figures-cs-002/Call_StageChange",
+      "processId": "Process_ContentChangeReviewStage",
+      "source": "folio-assistant-core/collab/processes/content/content-change-review-stage.bpmn",
+      "subject": "dth-sc#45 as-drawn figures CS-002",
+      "carriedBeans": [],
+      "tokens": [
+        "Task_BuildStaging"
+      ],
+      "arrivals": {},
+      "history": [
+        {
+          "at": "2026-11-17T12:27:12.250Z",
+          "node": "Start_Pipeline",
+          "note": "instance started"
+        }
+      ],
+      "status": "running",
+      "startedAt": "2026-11-17T12:27:12.250Z",
+      "updatedAt": "2026-11-17T12:27:12.250Z"
+    }
+  },
+  "scope": {
+    "changeSet": "CS-002",
+    "blocks": [
+      "fig:1",
+      "fig:10",
+      "fig:11",
+      "fig:13",
+      "fig:14",
+      "fig:15",
+      "fig:16",
+      "fig:17",
+      "fig:18",
+      "fig:19",
+      "fig:2",
+      "fig:20",
+      "fig:21",
+      "fig:22",
+      "fig:23",
+      "fig:24",
+      "fig:25",
+      "fig:26-27",
+      "fig:28-29",
+      "fig:3",
+      "fig:30",
+      "fig:31-32",
+      "fig:4",
+      "fig:7",
+      "fig:8",
+      "fig:9"
+    ]
+  }
+}

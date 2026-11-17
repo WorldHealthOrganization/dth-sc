@@ -2,7 +2,7 @@
   "$schema": "document-export/v1",
   "document": "dth-sc",
   "title": "Digital Transformation Handbook for Health Supply Chain Architecture",
-  "commit": "630a1e1b67c85cbd58587f31d4b4918f1c0eebb8",
+  "commit": "37d873145cd3ef8a6b6066bcc09b9fab5886b0bd",
   "dirty": false,
   "commitDate": "2026-11-17",
   "date": "2026-11-17",
@@ -14,7 +14,7 @@
   "files": [
     {
       "kind": "review-docx",
-      "file": "dth-sc-public-comment-630a1e1-2026-11-17.docx",
+      "file": "dth-sc-public-comment-37d8731-2026-11-17.docx",
       "latest": "dth-sc-public-comment-latest.docx",
       "format": "Word (.docx)",
       "mediaType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
@@ -29,18 +29,18 @@
       "parameters": {
         "document": "dth-sc",
         "export kind": "release",
-        "source commit": "630a1e1",
+        "source commit": "37d8731",
         "date": "2026-11-17",
         "line numbers": "on",
         "track changes": "off"
       },
-      "sha256": "7519e267b01bebe96e9e7a8657bd120f1c7502d1d4672165a7a91301d79e769d",
-      "bytes": 5421696,
+      "sha256": "d3f1125c98d200168131ff7410d54bd833c942b70377d6034e216a3caaadee2d",
+      "bytes": 5421695,
       "bookmarks": 177
     },
     {
       "kind": "pdf",
-      "file": "dth-sc-public-comment-630a1e1-2026-11-17.pdf",
+      "file": "dth-sc-public-comment-37d8731-2026-11-17.pdf",
       "latest": "dth-sc-public-comment-latest.pdf",
       "format": "PDF",
       "mediaType": "application/pdf",
@@ -56,19 +56,19 @@
       "parameters": {
         "document": "dth-sc",
         "export kind": "release",
-        "source commit": "630a1e1",
+        "source commit": "37d8731",
         "date": "2026-11-17",
         "line numbers": "on",
-        "laid out from": "dth-sc-public-comment-630a1e1-2026-11-17.docx"
+        "laid out from": "dth-sc-public-comment-37d8731-2026-11-17.docx"
       },
-      "sha256": "589fd0c14453abb4540fa051c1f7ae67eec25bcb8ff5c93d977a391195fecdce",
-      "bytes": 6758636,
+      "sha256": "66303a9ebcb9ad18d2f4ece7dc59caba00c69e9bd1e23e0ee6161df368bdf2c7",
+      "bytes": 6758845,
       "pages": 153,
       "lines": 2079
     },
     {
       "kind": "offline-docx",
-      "file": "dth-sc-offline-630a1e1.docx",
+      "file": "dth-sc-offline-37d8731.docx",
       "latest": "dth-sc-offline-latest.docx",
       "format": "Word (.docx)",
       "mediaType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
@@ -84,12 +84,12 @@
       "parameters": {
         "document": "dth-sc",
         "export kind": "release",
-        "source commit": "630a1e1",
+        "source commit": "37d8731",
         "date": "2026-11-17",
         "line numbers": "on",
         "track changes": "on"
       },
-      "sha256": "ec7f6f16d29c4c34cc075401d75429b9c00fa5b0bac9096947b856dc7d3e5918",
+      "sha256": "ac830a7b3d239402d3bee4180f3559883501d9d041ba2f4e857b2acbe911e95e",
       "bytes": 5421774,
       "bookmarks": 177
     }

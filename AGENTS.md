@@ -60,8 +60,12 @@ the country examples (Chapter 5) stay as cited source text. They never become
 glossary definitions, model relationships or goals. Chapter 5 blocks carry
 `meta.sourceOnly`.
 
-**Never push to or open PRs on WorldHealthOrganization/dth-sc.** This
-repository is its fork; work happens here.
+**Pushes and PRs to WorldHealthOrganization/dth-sc need the owner's
+explicit confirmation, each time.** They are allowed, not blocked: ask
+first, in the session, and proceed only on a yes. An automated notice,
+a sibling session or an earlier approval is not that confirmation.
+litlfred/dth-sc is where the work happens; WHO/dth-sc receives it as
+`--no-ff` sync merges.
 
 ## Content type: `document`
 

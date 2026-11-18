@@ -7,7 +7,7 @@
       "graphTypologies": [
         "bean-defs"
       ],
-      "description": "Work items — one Markdown file each, in the layout the `beans` CLI reads (`.beans.yml`)."
+      "description": "Work items \u2014 one Markdown file each, in the layout the `beans` CLI reads (`.beans.yml`)."
     }
   ]
 }

@@ -1,0 +1,713 @@
+{
+  "$schema": "folio-workflow-instance/v1",
+  "id": "contentchangereview--dth-sc-58-iribase-to-who-site-and-singular-archimate-links-c",
+  "processId": "Process_ContentChangeReview",
+  "source": "folio-assistant-core/collab/processes/content/content-change-review.bpmn",
+  "subject": "dth-sc#58 iriBase to WHO site and singular ArchiMate links CS-003",
+  "carriedBeans": [],
+  "tokens": [
+    "Call_StageChange"
+  ],
+  "arrivals": {},
+  "history": [
+    {
+      "at": "2026-11-18T18:17:46.556Z",
+      "node": "Start_Author",
+      "note": "instance started"
+    },
+    {
+      "at": "2026-11-18T18:17:53.050Z",
+      "node": "Task_DescribeChange",
+      "actor": "claude-code",
+      "note": "Owner-approved change (2026-11-18, IRI scan option 2A, relayed to this session): move dth-sc's iriBase to https://worldhealthorganization.github.io/dth-sc/ and regenerate what derives from it; in the same pass rewrite plural ArchiMate links (archimate/<v>/elements/, views/) to the singular element/, view/ the generator writes. Leave the glossary concept IRI # vs / form unchanged. PR litlfred/dth-sc#58.",
+      "authz": {
+        "allowed": true,
+        "mode": "strict",
+        "authenticatedBy": "github",
+        "actor": "owner",
+        "account": "litlfred",
+        "role": "author",
+        "assignment": "unconstrained",
+        "authorized": "permit",
+        "findings": []
+      },
+      "prov": {
+        "@type": "prov:Activity",
+        "@id": "contentchangereview--dth-sc-58-iribase-to-who-site-and-singular-archimate-links-c#1",
+        "prov:startedAtTime": "2026-11-18T18:17:53.050Z",
+        "prov:qualifiedAssociation": {
+          "prov:agent": "owner",
+          "prov:hadRole": "author",
+          "prov:hadPlan": "content-change-review#Task_DescribeChange"
+        },
+        "cat-harness:underPolicy": [
+          "https://litlfred.github.io/fhir-harness/policies/ig-publisher-service",
+          "https://litlfred.github.io/folio-assistant-core/policies/content-agents",
+          "https://litlfred.github.io/folio-assistant/policies/folio-defaults",
+          "https://litlfred.github.io/folio-assistant/policies/http-gateway"
+        ]
+      }
+    },
+    {
+      "at": "2026-11-18T18:20:20.640Z",
+      "node": "Call_BeanOpen",
+      "actor": "claude-code",
+      "note": "subprocess Process_BeanOpen completed"
+    },
+    {
+      "at": "2026-11-18T18:20:23.781Z",
+      "node": "GW_BeanYours",
+      "outcome": "claimed",
+      "actor": "claude-code",
+      "note": "dth-sc-w7ho is this session's.",
+      "authz": {
+        "allowed": true,
+        "mode": "strict",
+        "authenticatedBy": "github",
+        "actor": "owner",
+        "account": "litlfred",
+        "role": "authoring-agent",
+        "assignment": "unconstrained",
+        "authorized": "permit",
+        "findings": []
+      },
+      "prov": {
+        "@type": "prov:Activity",
+        "@id": "contentchangereview--dth-sc-58-iribase-to-who-site-and-singular-archimate-links-c#3",
+        "prov:startedAtTime": "2026-11-18T18:20:23.781Z",
+        "prov:qualifiedAssociation": {
+          "prov:agent": "owner",
+          "prov:hadRole": "authoring-agent",
+          "prov:hadPlan": "content-change-review#GW_BeanYours"
+        },
+        "cat-harness:underPolicy": [
+          "https://litlfred.github.io/fhir-harness/policies/ig-publisher-service",
+          "https://litlfred.github.io/folio-assistant-core/policies/content-agents",
+          "https://litlfred.github.io/folio-assistant/policies/folio-defaults",
+          "https://litlfred.github.io/folio-assistant/policies/http-gateway"
+        ]
+      }
+    },
+    {
+      "at": "2026-11-18T18:21:35.170Z",
+      "node": "Call_MakeChange",
+      "actor": "claude-code",
+      "note": "subprocess Process_ContentChangeReviewMake completed"
+    }
+  ],
+  "status": "running",
+  "startedAt": "2026-11-18T18:17:46.556Z",
+  "updatedAt": "2026-11-18T18:21:35.170Z",
+  "children": {
+    "Call_BeanOpen": {
+      "id": "contentchangereview--dth-sc-58-iribase-to-who-site-and-singular-archimate-links-c/Call_BeanOpen",
+      "processId": "Process_BeanOpen",
+      "source": "cat-harness/sdlc/processes/bean-open.bpmn",
+      "subject": "dth-sc#58 iriBase to WHO site and singular ArchiMate links CS-003",
+      "carriedBeans": [],
+      "tokens": [],
+      "arrivals": {},
+      "history": [
+        {
+          "at": "2026-11-18T18:17:53.052Z",
+          "node": "Open_Start",
+          "note": "instance started"
+        },
+        {
+          "at": "2026-11-18T18:20:02.924Z",
+          "node": "Open_CheckExists",
+          "actor": "claude-code",
+          "note": "Searched beans/defs for iriBase / WHO site / worldhealthorganization.github.io/dth-sc: no existing bean for this change.",
+          "authz": {
+            "allowed": true,
+            "mode": "strict",
+            "authenticatedBy": "github",
+            "actor": "owner",
+            "account": "litlfred",
+            "role": "authoring-agent",
+            "assignment": "unconstrained",
+            "authorized": "permit",
+            "findings": []
+          },
+          "prov": {
+            "@type": "prov:Activity",
+            "@id": "contentchangereview--dth-sc-58-iribase-to-who-site-and-singular-archimate-links-c/Call_BeanOpen#1",
+            "prov:startedAtTime": "2026-11-18T18:20:02.924Z",
+            "prov:qualifiedAssociation": {
+              "prov:agent": "owner",
+              "prov:hadRole": "authoring-agent",
+              "prov:hadPlan": "bean-open#Open_CheckExists"
+            },
+            "cat-harness:underPolicy": [
+              "https://litlfred.github.io/fhir-harness/policies/ig-publisher-service",
+              "https://litlfred.github.io/folio-assistant-core/policies/content-agents",
+              "https://litlfred.github.io/folio-assistant/policies/folio-defaults",
+              "https://litlfred.github.io/folio-assistant/policies/http-gateway"
+            ]
+          }
+        },
+        {
+          "at": "2026-11-18T18:20:05.895Z",
+          "node": "Open_Exists",
+          "outcome": "no",
+          "actor": "claude-code",
+          "authz": {
+            "allowed": true,
+            "mode": "strict",
+            "authenticatedBy": "github",
+            "actor": "owner",
+            "account": "litlfred",
+            "role": "authoring-agent",
+            "assignment": "unconstrained",
+            "authorized": "permit",
+            "findings": []
+          },
+          "prov": {
+            "@type": "prov:Activity",
+            "@id": "contentchangereview--dth-sc-58-iribase-to-who-site-and-singular-archimate-links-c/Call_BeanOpen#2",
+            "prov:startedAtTime": "2026-11-18T18:20:05.895Z",
+            "prov:qualifiedAssociation": {
+              "prov:agent": "owner",
+              "prov:hadRole": "authoring-agent",
+              "prov:hadPlan": "bean-open#Open_Exists"
+            },
+            "cat-harness:underPolicy": [
+              "https://litlfred.github.io/fhir-harness/policies/ig-publisher-service",
+              "https://litlfred.github.io/folio-assistant-core/policies/content-agents",
+              "https://litlfred.github.io/folio-assistant/policies/folio-defaults",
+              "https://litlfred.github.io/folio-assistant/policies/http-gateway"
+            ]
+          }
+        },
+        {
+          "at": "2026-11-18T18:20:17.458Z",
+          "node": "Open_Create",
+          "actor": "claude-code",
+          "note": "Created bean dth-sc-w7ho (dth-sc#58: iriBase to the WHO site; singular ArchiMate links (CS-003)), in-progress.",
+          "authz": {
+            "allowed": true,
+            "mode": "strict",
+            "authenticatedBy": "github",
+            "actor": "owner",
+            "account": "litlfred",
+            "role": "authoring-agent",
+            "assignment": "unconstrained",
+            "authorized": "permit",
+            "access": "permit",
+            "findings": []
+          },
+          "prov": {
+            "@type": "prov:Activity",
+            "@id": "contentchangereview--dth-sc-58-iribase-to-who-site-and-singular-archimate-links-c/Call_BeanOpen#3",
+            "prov:startedAtTime": "2026-11-18T18:20:17.458Z",
+            "prov:qualifiedAssociation": {
+              "prov:agent": "owner",
+              "prov:hadRole": "authoring-agent",
+              "prov:hadPlan": "bean-open#Open_Create"
+            },
+            "prov:used": [
+              "dth-sc-w7ho"
+            ],
+            "cat-harness:underPolicy": [
+              "https://litlfred.github.io/fhir-harness/policies/ig-publisher-service",
+              "https://litlfred.github.io/folio-assistant-core/policies/content-agents",
+              "https://litlfred.github.io/folio-assistant/policies/folio-defaults",
+              "https://litlfred.github.io/folio-assistant/policies/http-gateway"
+            ]
+          }
+        },
+        {
+          "at": "2026-11-18T18:20:20.640Z",
+          "node": "Open_Claim",
+          "actor": "claude-code",
+          "note": "dth-sc-w7ho claimed in-progress on branch iri-base-who (litlfred/dth-sc#58).",
+          "authz": {
+            "allowed": true,
+            "mode": "strict",
+            "authenticatedBy": "github",
+            "actor": "owner",
+            "account": "litlfred",
+            "role": "authoring-agent",
+            "assignment": "unconstrained",
+            "authorized": "permit",
+            "access": "permit",
+            "findings": []
+          },
+          "prov": {
+            "@type": "prov:Activity",
+            "@id": "contentchangereview--dth-sc-58-iribase-to-who-site-and-singular-archimate-links-c/Call_BeanOpen#4",
+            "prov:startedAtTime": "2026-11-18T18:20:20.640Z",
+            "prov:qualifiedAssociation": {
+              "prov:agent": "owner",
+              "prov:hadRole": "authoring-agent",
+              "prov:hadPlan": "bean-open#Open_Claim"
+            },
+            "prov:used": [
+              "dth-sc-w7ho"
+            ],
+            "cat-harness:underPolicy": [
+              "https://litlfred.github.io/fhir-harness/policies/ig-publisher-service",
+              "https://litlfred.github.io/folio-assistant-core/policies/content-agents",
+              "https://litlfred.github.io/folio-assistant/policies/folio-defaults",
+              "https://litlfred.github.io/folio-assistant/policies/http-gateway"
+            ]
+          }
+        },
+        {
+          "at": "2026-11-18T18:20:20.640Z",
+          "node": "Open_Claimed",
+          "note": "end event reached"
+        }
+      ],
+      "status": "completed",
+      "startedAt": "2026-11-18T18:17:53.052Z",
+      "updatedAt": "2026-11-18T18:20:20.640Z"
+    },
+    "Call_MakeChange": {
+      "id": "contentchangereview--dth-sc-58-iribase-to-who-site-and-singular-archimate-links-c/Call_MakeChange",
+      "processId": "Process_ContentChangeReviewMake",
+      "source": "folio-assistant-core/collab/processes/content/content-change-review-make.bpmn",
+      "subject": "dth-sc#58 iriBase to WHO site and singular ArchiMate links CS-003",
+      "carriedBeans": [],
+      "tokens": [],
+      "arrivals": {},
+      "history": [
+        {
+          "at": "2026-11-18T18:20:23.781Z",
+          "node": "Start_Agent",
+          "note": "instance started"
+        },
+        {
+          "at": "2026-11-18T18:20:56.698Z",
+          "node": "Task_DetectScope",
+          "actor": "claude-code",
+          "note": "Scope CS-003: the 100 blocks whose manifests change in dth-sc#58 (the labels check-corpus-gate --since origin/main reads from the diff), written to scope.blocks. Impact: IRIs only (iriBase prefix; ArchiMate element/view path form). No prose wording, no DMN/CQL logic changes. Downstream: dth-pc and dth-sfp link to litlfred.github.io/dth-sc IRIs (WHO default branches: 63 and 68 hits); inbound PRs pending access.",
+          "authz": {
+            "allowed": true,
+            "mode": "strict",
+            "authenticatedBy": "github",
+            "actor": "owner",
+            "account": "litlfred",
+            "role": "authoring-agent",
+            "assignment": "unconstrained",
+            "authorized": "permit",
+            "findings": []
+          },
+          "prov": {
+            "@type": "prov:Activity",
+            "@id": "contentchangereview--dth-sc-58-iribase-to-who-site-and-singular-archimate-links-c/Call_MakeChange#1",
+            "prov:startedAtTime": "2026-11-18T18:20:56.698Z",
+            "prov:qualifiedAssociation": {
+              "prov:agent": "owner",
+              "prov:hadRole": "authoring-agent",
+              "prov:hadPlan": "content-change-review-make#Task_DetectScope"
+            },
+            "cat-harness:underPolicy": [
+              "https://litlfred.github.io/fhir-harness/policies/ig-publisher-service",
+              "https://litlfred.github.io/folio-assistant-core/policies/content-agents",
+              "https://litlfred.github.io/folio-assistant/policies/folio-defaults",
+              "https://litlfred.github.io/folio-assistant/policies/http-gateway"
+            ]
+          }
+        },
+        {
+          "at": "2026-11-18T18:21:01.512Z",
+          "node": "Task_CreateBranch",
+          "actor": "claude-code",
+          "note": "Branch iri-base-who from main 6aaf7e3; draft PR litlfred/dth-sc#58.",
+          "authz": {
+            "allowed": true,
+            "mode": "strict",
+            "authenticatedBy": "github",
+            "actor": "owner",
+            "account": "litlfred",
+            "role": "authoring-agent",
+            "assignment": "unconstrained",
+            "authorized": "permit",
+            "findings": []
+          },
+          "prov": {
+            "@type": "prov:Activity",
+            "@id": "contentchangereview--dth-sc-58-iribase-to-who-site-and-singular-archimate-links-c/Call_MakeChange#2",
+            "prov:startedAtTime": "2026-11-18T18:21:01.512Z",
+            "prov:qualifiedAssociation": {
+              "prov:agent": "owner",
+              "prov:hadRole": "authoring-agent",
+              "prov:hadPlan": "content-change-review-make#Task_CreateBranch"
+            },
+            "cat-harness:underPolicy": [
+              "https://litlfred.github.io/fhir-harness/policies/ig-publisher-service",
+              "https://litlfred.github.io/folio-assistant-core/policies/content-agents",
+              "https://litlfred.github.io/folio-assistant/policies/folio-defaults",
+              "https://litlfred.github.io/folio-assistant/policies/http-gateway"
+            ]
+          }
+        },
+        {
+          "at": "2026-11-18T18:21:11.467Z",
+          "node": "Task_EditContent",
+          "actor": "claude-code",
+          "note": "Commit 24d7e1c: IRIs in block meta (glossary, ArchiMate) rewritten to the WHO base and singular element/view paths; block JSON-LD regenerated (kg:blocks; check:kg-blocks 126 up to date). No prose wording changed. content_validate: profile conformance passes; its 22 kind-discriminator errors are the DAK kinds (persona, bp, dt) the MCP schema does not list, unchanged by this diff.",
+          "authz": {
+            "allowed": true,
+            "mode": "strict",
+            "authenticatedBy": "github",
+            "actor": "owner",
+            "account": "litlfred",
+            "role": "authoring-agent",
+            "assignment": "unconstrained",
+            "authorized": "permit",
+            "findings": []
+          },
+          "prov": {
+            "@type": "prov:Activity",
+            "@id": "contentchangereview--dth-sc-58-iribase-to-who-site-and-singular-archimate-links-c/Call_MakeChange#3",
+            "prov:startedAtTime": "2026-11-18T18:21:11.467Z",
+            "prov:qualifiedAssociation": {
+              "prov:agent": "owner",
+              "prov:hadRole": "authoring-agent",
+              "prov:hadPlan": "content-change-review-make#Task_EditContent"
+            },
+            "cat-harness:underPolicy": [
+              "https://litlfred.github.io/fhir-harness/policies/ig-publisher-service",
+              "https://litlfred.github.io/folio-assistant-core/policies/content-agents",
+              "https://litlfred.github.io/folio-assistant/policies/folio-defaults",
+              "https://litlfred.github.io/folio-assistant/policies/http-gateway"
+            ]
+          }
+        },
+        {
+          "at": "2026-11-18T18:21:15.182Z",
+          "node": "Task_EditLogic",
+          "actor": "claude-code",
+          "note": "No decision logic changed. DMN/BPMN files only had their namespace IRI moved to the WHO base; rules and lanes unchanged (check:dth-blocks: 2 DMN tables, 10 rules; 3 BPMN processes pass). check-dth-blocks.ts now reads the singular ArchiMate IRIs.",
+          "authz": {
+            "allowed": true,
+            "mode": "strict",
+            "authenticatedBy": "github",
+            "actor": "owner",
+            "account": "litlfred",
+            "role": "authoring-agent",
+            "assignment": "unconstrained",
+            "authorized": "permit",
+            "findings": []
+          },
+          "prov": {
+            "@type": "prov:Activity",
+            "@id": "contentchangereview--dth-sc-58-iribase-to-who-site-and-singular-archimate-links-c/Call_MakeChange#4",
+            "prov:startedAtTime": "2026-11-18T18:21:15.182Z",
+            "prov:qualifiedAssociation": {
+              "prov:agent": "owner",
+              "prov:hadRole": "authoring-agent",
+              "prov:hadPlan": "content-change-review-make#Task_EditLogic"
+            },
+            "cat-harness:underPolicy": [
+              "https://litlfred.github.io/fhir-harness/policies/ig-publisher-service",
+              "https://litlfred.github.io/folio-assistant-core/policies/content-agents",
+              "https://litlfred.github.io/folio-assistant/policies/folio-defaults",
+              "https://litlfred.github.io/folio-assistant/policies/http-gateway"
+            ]
+          }
+        },
+        {
+          "at": "2026-11-18T18:21:19.901Z",
+          "node": "Task_AssessImpact",
+          "actor": "claude-code",
+          "note": "No indicators, referral logic, translations or Lean proofs touched (document profile, no Lean). Downstream: dth-pc (63) and dth-sfp (68) reference litlfred.github.io/dth-sc IRIs, and WorldHealthOrganization/dth-sc follows via the sync PR. Absorbing those is the inbound-link PRs, outside this change set.",
+          "authz": {
+            "allowed": true,
+            "mode": "strict",
+            "authenticatedBy": "github",
+            "actor": "owner",
+            "account": "litlfred",
+            "role": "authoring-agent",
+            "assignment": "unconstrained",
+            "authorized": "permit",
+            "findings": []
+          },
+          "prov": {
+            "@type": "prov:Activity",
+            "@id": "contentchangereview--dth-sc-58-iribase-to-who-site-and-singular-archimate-links-c/Call_MakeChange#5",
+            "prov:startedAtTime": "2026-11-18T18:21:19.901Z",
+            "prov:qualifiedAssociation": {
+              "prov:agent": "owner",
+              "prov:hadRole": "authoring-agent",
+              "prov:hadPlan": "content-change-review-make#Task_AssessImpact"
+            },
+            "cat-harness:underPolicy": [
+              "https://litlfred.github.io/fhir-harness/policies/ig-publisher-service",
+              "https://litlfred.github.io/folio-assistant-core/policies/content-agents",
+              "https://litlfred.github.io/folio-assistant/policies/folio-defaults",
+              "https://litlfred.github.io/folio-assistant/policies/http-gateway"
+            ]
+          }
+        },
+        {
+          "at": "2026-11-18T18:21:27.202Z",
+          "node": "Call_OptionsAnalysis",
+          "actor": "claude-code",
+          "note": "subprocess Process_OptionsAnalysis completed"
+        },
+        {
+          "at": "2026-11-18T18:21:35.170Z",
+          "node": "Task_CommitPush",
+          "actor": "claude-code",
+          "note": "Commit 24d7e1c pushed to iri-base-who, draft PR litlfred/dth-sc#58. The change renders IRIs only (link targets), not visible text, so no before/after preview. Workflow store pushed to cat/dth-sc/beans with state:push so the corpus gate sees this change set.",
+          "authz": {
+            "allowed": true,
+            "mode": "strict",
+            "authenticatedBy": "github",
+            "actor": "owner",
+            "account": "litlfred",
+            "role": "authoring-agent",
+            "assignment": "unconstrained",
+            "authorized": "permit",
+            "findings": []
+          },
+          "prov": {
+            "@type": "prov:Activity",
+            "@id": "contentchangereview--dth-sc-58-iribase-to-who-site-and-singular-archimate-links-c/Call_MakeChange#7",
+            "prov:startedAtTime": "2026-11-18T18:21:35.170Z",
+            "prov:qualifiedAssociation": {
+              "prov:agent": "owner",
+              "prov:hadRole": "authoring-agent",
+              "prov:hadPlan": "content-change-review-make#Task_CommitPush"
+            },
+            "cat-harness:underPolicy": [
+              "https://litlfred.github.io/fhir-harness/policies/ig-publisher-service",
+              "https://litlfred.github.io/folio-assistant-core/policies/content-agents",
+              "https://litlfred.github.io/folio-assistant/policies/folio-defaults",
+              "https://litlfred.github.io/folio-assistant/policies/http-gateway"
+            ]
+          }
+        },
+        {
+          "at": "2026-11-18T18:21:35.170Z",
+          "node": "End_Agent",
+          "note": "end event reached"
+        }
+      ],
+      "status": "completed",
+      "startedAt": "2026-11-18T18:20:23.781Z",
+      "updatedAt": "2026-11-18T18:21:35.170Z",
+      "children": {
+        "Call_OptionsAnalysis": {
+          "id": "contentchangereview--dth-sc-58-iribase-to-who-site-and-singular-archimate-links-c/Call_MakeChange/Call_OptionsAnalysis",
+          "processId": "Process_OptionsAnalysis",
+          "source": "cat-harness/processes/process/options-analysis.bpmn",
+          "subject": "dth-sc#58 iriBase to WHO site and singular ArchiMate links CS-003",
+          "carriedBeans": [],
+          "tokens": [],
+          "arrivals": {},
+          "history": [
+            {
+              "at": "2026-11-18T18:21:19.905Z",
+              "node": "Start_Process_OptionsAnalysis",
+              "note": "instance started"
+            },
+            {
+              "at": "2026-11-18T18:21:23.745Z",
+              "node": "A_Frame",
+              "actor": "claude-code",
+              "note": "Decision kind: how downstream repos absorb dth-sc's new IRIs. Trigger check: already decided by the owner (IRI scan option 2A: one small PR per inbound repo); not irreversible and not a surprise. No options analysis needed here.",
+              "authz": {
+                "allowed": true,
+                "mode": "strict",
+                "authenticatedBy": "github",
+                "actor": "owner",
+                "account": "litlfred",
+                "role": "business-analyst",
+                "assignment": "unconstrained",
+                "authorized": "permit",
+                "findings": []
+              },
+              "prov": {
+                "@type": "prov:Activity",
+                "@id": "contentchangereview--dth-sc-58-iribase-to-who-site-and-singular-archimate-links-c/Call_MakeChange/Call_OptionsAnalysis#1",
+                "prov:startedAtTime": "2026-11-18T18:21:23.745Z",
+                "prov:qualifiedAssociation": {
+                  "prov:agent": "owner",
+                  "prov:hadRole": "business-analyst",
+                  "prov:hadPlan": "options-analysis#A_Frame"
+                },
+                "cat-harness:underPolicy": [
+                  "https://litlfred.github.io/fhir-harness/policies/ig-publisher-service",
+                  "https://litlfred.github.io/folio-assistant-core/policies/content-agents",
+                  "https://litlfred.github.io/folio-assistant/policies/folio-defaults",
+                  "https://litlfred.github.io/folio-assistant/policies/http-gateway"
+                ]
+              }
+            },
+            {
+              "at": "2026-11-18T18:21:27.202Z",
+              "node": "GW_Trigger",
+              "outcome": "no",
+              "actor": "claude-code",
+              "authz": {
+                "allowed": true,
+                "mode": "strict",
+                "authenticatedBy": "github",
+                "actor": "owner",
+                "account": "litlfred",
+                "role": "business-analyst",
+                "assignment": "unconstrained",
+                "authorized": "permit",
+                "findings": []
+              },
+              "prov": {
+                "@type": "prov:Activity",
+                "@id": "contentchangereview--dth-sc-58-iribase-to-who-site-and-singular-archimate-links-c/Call_MakeChange/Call_OptionsAnalysis#2",
+                "prov:startedAtTime": "2026-11-18T18:21:27.202Z",
+                "prov:qualifiedAssociation": {
+                  "prov:agent": "owner",
+                  "prov:hadRole": "business-analyst",
+                  "prov:hadPlan": "options-analysis#GW_Trigger"
+                },
+                "cat-harness:underPolicy": [
+                  "https://litlfred.github.io/fhir-harness/policies/ig-publisher-service",
+                  "https://litlfred.github.io/folio-assistant-core/policies/content-agents",
+                  "https://litlfred.github.io/folio-assistant/policies/folio-defaults",
+                  "https://litlfred.github.io/folio-assistant/policies/http-gateway"
+                ]
+              }
+            },
+            {
+              "at": "2026-11-18T18:21:27.202Z",
+              "node": "End_TriggerNotMet",
+              "note": "end event reached"
+            }
+          ],
+          "status": "completed",
+          "startedAt": "2026-11-18T18:21:19.905Z",
+          "updatedAt": "2026-11-18T18:21:27.202Z"
+        }
+      }
+    },
+    "Call_StageChange": {
+      "id": "contentchangereview--dth-sc-58-iribase-to-who-site-and-singular-archimate-links-c/Call_StageChange",
+      "processId": "Process_ContentChangeReviewStage",
+      "source": "folio-assistant-core/collab/processes/content/content-change-review-stage.bpmn",
+      "subject": "dth-sc#58 iriBase to WHO site and singular ArchiMate links CS-003",
+      "carriedBeans": [],
+      "tokens": [
+        "Task_BuildStaging"
+      ],
+      "arrivals": {},
+      "history": [
+        {
+          "at": "2026-11-18T18:21:35.170Z",
+          "node": "Start_Pipeline",
+          "note": "instance started"
+        }
+      ],
+      "status": "running",
+      "startedAt": "2026-11-18T18:21:35.170Z",
+      "updatedAt": "2026-11-18T18:21:35.170Z"
+    }
+  },
+  "scope": {
+    "changeSet": "CS-003",
+    "blocks": [
+      "fig:1",
+      "fig:10",
+      "fig:11",
+      "fig:13",
+      "fig:14",
+      "fig:15",
+      "fig:16",
+      "fig:17",
+      "fig:18",
+      "fig:19",
+      "fig:2",
+      "fig:20",
+      "fig:21",
+      "fig:22",
+      "fig:23",
+      "fig:24",
+      "fig:25",
+      "fig:26-27",
+      "fig:28-29",
+      "fig:3",
+      "fig:30",
+      "fig:31-32",
+      "fig:4",
+      "fig:5",
+      "fig:6",
+      "fig:7",
+      "fig:8",
+      "fig:9",
+      "prose:annexes-page-066",
+      "prose:annexes-page-067",
+      "prose:annexes-page-068",
+      "prose:annexes-page-069",
+      "prose:annexes-page-070",
+      "prose:annexes-page-071",
+      "prose:annexes-page-072",
+      "prose:annexes-page-076",
+      "prose:ch01-page-019",
+      "prose:ch01-page-020",
+      "prose:ch01-page-021",
+      "prose:ch01-page-022",
+      "prose:ch01-page-023",
+      "prose:ch01-page-024",
+      "prose:ch01-page-025",
+      "prose:ch01-page-026",
+      "prose:ch02-page-027",
+      "prose:ch02-page-028",
+      "prose:ch02-page-029",
+      "prose:ch02-page-030",
+      "prose:ch02-page-031",
+      "prose:ch02-page-032",
+      "prose:ch02-page-033",
+      "prose:ch02-page-034",
+      "prose:ch02-page-035",
+      "prose:ch02-page-036",
+      "prose:ch02-page-037",
+      "prose:ch02-page-038",
+      "prose:ch02-page-039",
+      "prose:ch02-page-040",
+      "prose:ch02-page-041",
+      "prose:ch02-page-042",
+      "prose:ch02-page-043",
+      "prose:ch03-page-044",
+      "prose:ch03-page-045",
+      "prose:ch03-page-046",
+      "prose:ch03-page-047",
+      "prose:ch03-page-048",
+      "prose:ch03-page-049",
+      "prose:ch03-page-050",
+      "prose:ch03-page-051",
+      "prose:ch03-page-052",
+      "prose:ch04-page-053",
+      "prose:ch04-page-054",
+      "prose:ch04-page-055",
+      "prose:ch04-page-056",
+      "prose:ch05-page-057",
+      "prose:ch05-page-058",
+      "prose:ch05-page-059",
+      "prose:ch05-page-060",
+      "prose:ch05-page-061",
+      "prose:ch05-page-062",
+      "prose:ch05-page-063",
+      "prose:ch05-page-064",
+      "prose:front-page-008",
+      "prose:front-page-009",
+      "prose:introduction-page-011",
+      "prose:introduction-page-012",
+      "prose:introduction-page-013",
+      "prose:introduction-page-014",
+      "prose:introduction-page-015",
+      "prose:introduction-page-016",
+      "prose:introduction-page-017",
+      "tbl:1",
+      "tbl:2",
+      "tbl:3",
+      "tbl:annex-2",
+      "tbl:annex-3",
+      "tbl:annex-4",
+      "tbl:annex-5",
+      "tbl:annex-6",
+      "tbl:annex-7"
+    ]
+  }
+}

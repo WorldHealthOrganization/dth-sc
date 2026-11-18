@@ -1,12 +1,18 @@
 {
   "$schema": "state-manifest/v1",
+  "status": "active",
   "authoritative": true,
   "subgraph": "beans",
   "keyedBy": "tip",
+  "source": {
+    "ref": "main",
+    "sha": "4ca3b3d08cf5e2808755c124e14c27c5502bc0ba"
+  },
+  "seededAt": "2026-10-31T22:03:21Z",
   "graphs": [
     {
       "path": "beans"
     }
   ],
-  "note": "The beans subgraph of this layer, kept off main from its first commit; created by the layer's initialization (`bun run cat state:seed --init`)."
+  "note": "The beans subgraph of this instance, kept off main from its first commit (folio_init, bean hp54)."
 }

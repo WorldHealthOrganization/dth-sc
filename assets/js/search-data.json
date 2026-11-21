@@ -3480,7 +3480,7 @@
   },"497": {
     "doc": "Glossary: dth-sc",
     "title": "Glossary: dth-sc",
-    "content": "The glossaries dth-sc owns: Glossary of the Digital Transformation Handbook for Health Supply Chain Architecture (80 terms, SKOS). Every other instance’s terms, the counts and the sources are on the glossary index. Size: this page holds 80 terms and is 97 KB before compression, within its budget of 1.0 MB. There is no search index: the filter below runs over this page, and the A–Z bar jumps within it. Filter terms . 80 shown . A B C D E F G H I K M N O P Q R S T U V W ",
+    "content": "The glossaries dth-sc owns: Glossary of the Digital Transformation Handbook for Health Supply Chain Architecture (80 terms, SKOS). Every other instance’s terms, the counts and the sources are on the glossary index. Size: this page holds 80 terms and is 98 KB before compression, within its budget of 1.0 MB. There is no search index: the filter below runs over this page, and the A–Z bar jumps within it. Filter terms . 80 shown . A B C D E F G H I K M N O P Q R S T U V W ",
     "url": "/dth-sc/en/folio-assistant-core/glossary/instance/dth-sc/#glossary-dth-sc",
     
     "relUrl": "/en/folio-assistant-core/glossary/instance/dth-sc/#glossary-dth-sc"
@@ -3809,7 +3809,7 @@
   },"544": {
     "doc": "Glossary",
     "title": "Pages",
-    "content": "Each term is on exactly one page. Authored terms are on the page of the instance that owns their scheme (owner, 2026-10-15), and extracted candidates are split by asset type (owner, 2026-09-24), so that no page is fetched at the size of all of them. | page | holds | terms | size | . | this page | counts and sources | — | 5 KB | . | dth-sc | authored terms of dth-sc | 80 | 97 KB | . | Skills | candidates, extracted | 0 | 2 KB | . | Tools | candidates, extracted | 0 | 2 KB | . | BPMN activities | candidates, extracted | 0 | 7 KB | . | DMN decisions | candidates, extracted | 0 | 2 KB | . | Schema fields | candidates, extracted | 0 | 15 KB | . Size: this page is 5 KB before compression, within its budget of 64 KB; each instance’s and each asset type’s page has a budget of 1.0 MB. There is no search index: the filter on each page runs over that page, and its A–Z bar jumps within it. The SKOS files in the sources are the machine-readable form. ",
+    "content": "Each term is on exactly one page. Authored terms are on the page of the instance that owns their scheme (owner, 2026-10-15), and extracted candidates are split by asset type (owner, 2026-09-24), so that no page is fetched at the size of all of them. | page | holds | terms | size | . | this page | counts and sources | — | 5 KB | . | dth-sc | authored terms of dth-sc | 80 | 98 KB | . | Skills | candidates, extracted | 0 | 2 KB | . | Tools | candidates, extracted | 0 | 2 KB | . | BPMN activities | candidates, extracted | 0 | 7 KB | . | DMN decisions | candidates, extracted | 0 | 2 KB | . | Schema fields | candidates, extracted | 0 | 15 KB | . Size: this page is 5 KB before compression, within its budget of 64 KB; each instance’s and each asset type’s page has a budget of 1.0 MB. There is no search index: the filter on each page runs over that page, and its A–Z bar jumps within it. The SKOS files in the sources are the machine-readable form. ",
     "url": "/dth-sc/en/folio-assistant-core/glossary/#pages",
     
     "relUrl": "/en/folio-assistant-core/glossary/#pages"

@@ -35,13 +35,13 @@
   ]
  },
  "candidate": {
-  "pages": 1375,
+  "pages": 2112,
   "counts": {
    "siteNav": 0,
-   "search": 208,
-   "navbarRow": 208,
-   "rail": 1139,
-   "translationMeta": 143
+   "search": 679,
+   "navbarRow": 679,
+   "rail": 1615,
+   "translationMeta": 404
   },
   "dirs": [
    "ar",
@@ -54,8 +54,12 @@
    "folio-assistant-core",
    "fr",
    "id-lookup",
+   "payload",
+   "review-sheet",
    "ru",
+   "slices",
    "smart-base",
+   "v0",
    "zh"
   ],
   "index": [
@@ -67,13 +71,13 @@
  },
  "baseline": {
   "features": {
-   "pages": 1375,
+   "pages": 2112,
    "counts": {
     "siteNav": 0,
-    "search": 208,
-    "navbarRow": 208,
-    "rail": 1139,
-    "translationMeta": 143
+    "search": 679,
+    "navbarRow": 679,
+    "rail": 1615,
+    "translationMeta": 404
    },
    "dirs": [
     "ar",
@@ -86,8 +90,12 @@
     "folio-assistant-core",
     "fr",
     "id-lookup",
+    "payload",
+    "review-sheet",
     "ru",
+    "slices",
     "smart-base",
+    "v0",
     "zh"
    ],
    "index": [
@@ -97,6 +105,6 @@
     "translationMeta"
    ]
   },
-  "from": "741f79cb7901"
+  "from": "1e3558e7fe8b"
  }
 }

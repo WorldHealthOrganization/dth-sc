@@ -26,11 +26,8 @@
   },
   "site": {
     "build": {
-      "sourceSteps": [
-        "site:document",
-        "site:library",
-        "site:glossary"
-      ],
+      "extends": "document-folio",
+      "sourceSteps": [],
       "siteSteps": [
         "site:node-kinds",
         "site:export"
